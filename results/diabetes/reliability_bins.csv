@@ -1,0 +1,841 @@
+Experiment,Condition,Model,Random Seed,Test Set,bin,n,mean_pred,obs_rate
+Baseline,None,LightGBM,42,In-domain Test,0,103,0.07934727422097354,0.0
+Baseline,None,LightGBM,42,In-domain Test,1,557,0.15994601203145417,0.03052064631956912
+Baseline,None,LightGBM,42,In-domain Test,2,1802,0.2582553652147209,0.041620421753607105
+Baseline,None,LightGBM,42,In-domain Test,3,3148,0.3524754452016181,0.0724269377382465
+Baseline,None,LightGBM,42,In-domain Test,4,3496,0.4497571770843434,0.09525171624713959
+Baseline,None,LightGBM,42,In-domain Test,5,3119,0.5470123830113742,0.1484450144277012
+Baseline,None,LightGBM,42,In-domain Test,6,1292,0.6407834439085733,0.2089783281733746
+Baseline,None,LightGBM,42,In-domain Test,7,549,0.7423428376298568,0.29143897996357016
+Baseline,None,LightGBM,42,In-domain Test,8,125,0.8358324108123779,0.48
+Baseline,None,LightGBM,42,In-domain Test,9,1,0.9028463959693909,0.0
+Baseline,None,LightGBM,42,Shifted Test,0,44,0.07933158757673069,0.0
+Baseline,None,LightGBM,42,Shifted Test,1,214,0.15349987894296646,0.018691588785046728
+Baseline,None,LightGBM,42,Shifted Test,2,781,0.2590026371801098,0.06658130601792574
+Baseline,None,LightGBM,42,Shifted Test,3,1470,0.35389801553722955,0.05782312925170068
+Baseline,None,LightGBM,42,Shifted Test,4,1698,0.4489359956748073,0.09187279151943463
+Baseline,None,LightGBM,42,Shifted Test,5,1626,0.5481138276657935,0.12238622386223862
+Baseline,None,LightGBM,42,Shifted Test,6,718,0.6398778835046922,0.19080779944289694
+Baseline,None,LightGBM,42,Shifted Test,7,177,0.7436930685393555,0.2655367231638418
+Baseline,None,LightGBM,42,Shifted Test,8,46,0.8317598221094712,0.4782608695652174
+Baseline,None,LightGBM,42,Shifted Test,9,7,0.9150604775973729,0.5714285714285714
+Baseline,None,LightGBM,43,In-domain Test,0,164,0.0718503394050569,0.006097560975609756
+Baseline,None,LightGBM,43,In-domain Test,1,662,0.15876191201707027,0.03625377643504532
+Baseline,None,LightGBM,43,In-domain Test,2,1856,0.2568015891111231,0.05387931034482758
+Baseline,None,LightGBM,43,In-domain Test,3,3137,0.35269651360332416,0.07299968122409946
+Baseline,None,LightGBM,43,In-domain Test,4,3417,0.4495884658807476,0.11120866256950541
+Baseline,None,LightGBM,43,In-domain Test,5,2863,0.5451058072515855,0.14320642682500873
+Baseline,None,LightGBM,43,In-domain Test,6,1443,0.6429535393407587,0.19889119889119888
+Baseline,None,LightGBM,43,In-domain Test,7,533,0.7424305624854498,0.2570356472795497
+Baseline,None,LightGBM,43,In-domain Test,8,191,0.8287198250206353,0.39790575916230364
+Baseline,None,LightGBM,43,In-domain Test,9,2,0.9052897393703461,0.5
+Baseline,None,LightGBM,43,Shifted Test,0,92,0.07535096338909605,0.0
+Baseline,None,LightGBM,43,Shifted Test,1,276,0.1633881760518188,0.03260869565217391
+Baseline,None,LightGBM,43,Shifted Test,2,902,0.2580440253052373,0.05321507760532151
+Baseline,None,LightGBM,43,Shifted Test,3,1513,0.35218222686492756,0.07468605419695969
+Baseline,None,LightGBM,43,Shifted Test,4,1622,0.44946084301068956,0.08508014796547472
+Baseline,None,LightGBM,43,Shifted Test,5,1409,0.546182983263407,0.1270404542228531
+Baseline,None,LightGBM,43,Shifted Test,6,721,0.6448906455059819,0.20110957004160887
+Baseline,None,LightGBM,43,Shifted Test,7,178,0.7367158957411734,0.25842696629213485
+Baseline,None,LightGBM,43,Shifted Test,8,68,0.8385003621087355,0.4117647058823529
+Baseline,None,LightGBM,43,Shifted Test,9,0,,
+Baseline,None,LightGBM,44,In-domain Test,0,83,0.08607437344918768,0.012048192771084338
+Baseline,None,LightGBM,44,In-domain Test,1,595,0.15582757259116453,0.03865546218487395
+Baseline,None,LightGBM,44,In-domain Test,2,1846,0.2598746386260795,0.051462621885157094
+Baseline,None,LightGBM,44,In-domain Test,3,3293,0.35070837367605445,0.07440024293956879
+Baseline,None,LightGBM,44,In-domain Test,4,3123,0.4506592189238845,0.09574127441562601
+Baseline,None,LightGBM,44,In-domain Test,5,3022,0.5474992213384905,0.14162806088682992
+Baseline,None,LightGBM,44,In-domain Test,6,1593,0.6414612917052973,0.20841180163214063
+Baseline,None,LightGBM,44,In-domain Test,7,554,0.748346222006457,0.2870036101083033
+Baseline,None,LightGBM,44,In-domain Test,8,150,0.8279690861701965,0.47333333333333333
+Baseline,None,LightGBM,44,In-domain Test,9,1,0.9121546149253845,0.0
+Baseline,None,LightGBM,44,Shifted Test,0,57,0.08496119827032089,0.0
+Baseline,None,LightGBM,44,Shifted Test,1,275,0.1554780773953958,0.02909090909090909
+Baseline,None,LightGBM,44,Shifted Test,2,843,0.26026146734312333,0.05693950177935943
+Baseline,None,LightGBM,44,Shifted Test,3,1485,0.34991536501682163,0.061952861952861954
+Baseline,None,LightGBM,44,Shifted Test,4,1526,0.45135681010870604,0.09567496723460026
+Baseline,None,LightGBM,44,Shifted Test,5,1558,0.5486629411712078,0.12259306803594351
+Baseline,None,LightGBM,44,Shifted Test,6,833,0.6390455436735165,0.18967587034813926
+Baseline,None,LightGBM,44,Shifted Test,7,147,0.7430319254901133,0.24489795918367346
+Baseline,None,LightGBM,44,Shifted Test,8,53,0.8336084192653872,0.4339622641509434
+Baseline,None,LightGBM,44,Shifted Test,9,4,0.9082783609628677,1.0
+Baseline,None,Logistic Regression,42,In-domain Test,0,168,0.07183729788743048,0.041666666666666664
+Baseline,None,Logistic Regression,42,In-domain Test,1,633,0.15676950489128183,0.05055292259083728
+Baseline,None,Logistic Regression,42,In-domain Test,2,1554,0.25845459392210385,0.06113256113256113
+Baseline,None,Logistic Regression,42,In-domain Test,3,3072,0.35451941791689023,0.078125
+Baseline,None,Logistic Regression,42,In-domain Test,4,3656,0.449875294795378,0.09682713347921225
+Baseline,None,Logistic Regression,42,In-domain Test,5,2664,0.545241354128441,0.14527027027027026
+Baseline,None,Logistic Regression,42,In-domain Test,6,1509,0.6428409353876209,0.15705765407554673
+Baseline,None,Logistic Regression,42,In-domain Test,7,632,0.7456669954559471,0.22151898734177214
+Baseline,None,Logistic Regression,42,In-domain Test,8,238,0.8435465535696816,0.36134453781512604
+Baseline,None,Logistic Regression,42,In-domain Test,9,66,0.9404656200697927,0.42424242424242425
+Baseline,None,Logistic Regression,42,Shifted Test,0,73,0.0706297411417512,0.0684931506849315
+Baseline,None,Logistic Regression,42,Shifted Test,1,302,0.15982328986884742,0.059602649006622516
+Baseline,None,Logistic Regression,42,Shifted Test,2,738,0.2596130755737545,0.06639566395663957
+Baseline,None,Logistic Regression,42,Shifted Test,3,1480,0.3539590739317842,0.075
+Baseline,None,Logistic Regression,42,Shifted Test,4,1798,0.44796804061057965,0.08954393770856507
+Baseline,None,Logistic Regression,42,Shifted Test,5,1284,0.543602650317819,0.11292834890965732
+Baseline,None,Logistic Regression,42,Shifted Test,6,716,0.644288641031228,0.16620111731843576
+Baseline,None,Logistic Regression,42,Shifted Test,7,279,0.7400809325624965,0.22580645161290322
+Baseline,None,Logistic Regression,42,Shifted Test,8,83,0.8413196658513632,0.25301204819277107
+Baseline,None,Logistic Regression,42,Shifted Test,9,28,0.950831168464252,0.5
+Baseline,None,Logistic Regression,43,In-domain Test,0,214,0.06298662563481272,0.03271028037383177
+Baseline,None,Logistic Regression,43,In-domain Test,1,604,0.1576802179784767,0.06622516556291391
+Baseline,None,Logistic Regression,43,In-domain Test,2,1656,0.2570834103161874,0.06944444444444445
+Baseline,None,Logistic Regression,43,In-domain Test,3,3101,0.35284844079312877,0.08384392131570462
+Baseline,None,Logistic Regression,43,In-domain Test,4,3446,0.44884313438876866,0.10504933255948927
+Baseline,None,Logistic Regression,43,In-domain Test,5,2686,0.5458274682732722,0.13067758749069247
+Baseline,None,Logistic Regression,43,In-domain Test,6,1530,0.6440018501936221,0.16405228758169935
+Baseline,None,Logistic Regression,43,In-domain Test,7,701,0.7436490315683558,0.2268188302425107
+Baseline,None,Logistic Regression,43,In-domain Test,8,256,0.8414135796483606,0.25390625
+Baseline,None,Logistic Regression,43,In-domain Test,9,74,0.9383001134202287,0.47297297297297297
+Baseline,None,Logistic Regression,43,Shifted Test,0,64,0.061234414592036046,0.09375
+Baseline,None,Logistic Regression,43,Shifted Test,1,305,0.15880629891743425,0.06229508196721312
+Baseline,None,Logistic Regression,43,Shifted Test,2,842,0.25838678689439054,0.06532066508313539
+Baseline,None,Logistic Regression,43,Shifted Test,3,1623,0.3534171369365168,0.07578558225508318
+Baseline,None,Logistic Regression,43,Shifted Test,4,1655,0.4492478140891499,0.08700906344410876
+Baseline,None,Logistic Regression,43,Shifted Test,5,1220,0.5461311727762223,0.12704918032786885
+Baseline,None,Logistic Regression,43,Shifted Test,6,665,0.6448129784791989,0.16390977443609023
+Baseline,None,Logistic Regression,43,Shifted Test,7,287,0.7417347217270721,0.21951219512195122
+Baseline,None,Logistic Regression,43,Shifted Test,8,87,0.8427713575034306,0.19540229885057472
+Baseline,None,Logistic Regression,43,Shifted Test,9,33,0.9479433803847341,0.45454545454545453
+Baseline,None,Logistic Regression,44,In-domain Test,0,180,0.06744146125598086,0.03333333333333333
+Baseline,None,Logistic Regression,44,In-domain Test,1,605,0.15471391948786647,0.07107438016528926
+Baseline,None,Logistic Regression,44,In-domain Test,2,1556,0.2577409402474493,0.06555269922879177
+Baseline,None,Logistic Regression,44,In-domain Test,3,3087,0.35392876435222076,0.07936507936507936
+Baseline,None,Logistic Regression,44,In-domain Test,4,3447,0.44916830254458745,0.10385842761821874
+Baseline,None,Logistic Regression,44,In-domain Test,5,2725,0.5467124240114054,0.1324770642201835
+Baseline,None,Logistic Regression,44,In-domain Test,6,1575,0.6453226787703378,0.16507936507936508
+Baseline,None,Logistic Regression,44,In-domain Test,7,740,0.7438018950256141,0.2
+Baseline,None,Logistic Regression,44,In-domain Test,8,249,0.8427096909308529,0.3293172690763052
+Baseline,None,Logistic Regression,44,In-domain Test,9,96,0.940803112462163,0.5
+Baseline,None,Logistic Regression,44,Shifted Test,0,53,0.06900571675022256,0.09433962264150944
+Baseline,None,Logistic Regression,44,Shifted Test,1,242,0.15909327191015907,0.07851239669421488
+Baseline,None,Logistic Regression,44,Shifted Test,2,749,0.258551757509145,0.05874499332443257
+Baseline,None,Logistic Regression,44,Shifted Test,3,1424,0.35329401539115424,0.07162921348314606
+Baseline,None,Logistic Regression,44,Shifted Test,4,1727,0.4496560324874308,0.08164447017950202
+Baseline,None,Logistic Regression,44,Shifted Test,5,1372,0.5457892411825608,0.11734693877551021
+Baseline,None,Logistic Regression,44,Shifted Test,6,758,0.6456874455657043,0.17810026385224276
+Baseline,None,Logistic Regression,44,Shifted Test,7,310,0.7381440322245321,0.18387096774193548
+Baseline,None,Logistic Regression,44,Shifted Test,8,114,0.8387996371377978,0.22807017543859648
+Baseline,None,Logistic Regression,44,Shifted Test,9,32,0.94848851300776,0.5
+Feature Shift,Diagnoses,LightGBM,42,In-domain Test,0,110,0.08478135510601781,0.0
+Feature Shift,Diagnoses,LightGBM,42,In-domain Test,1,181,0.1594311698694914,0.027624309392265192
+Feature Shift,Diagnoses,LightGBM,42,In-domain Test,2,1567,0.25893763596835073,0.048500319081046586
+Feature Shift,Diagnoses,LightGBM,42,In-domain Test,3,3169,0.3541081289023998,0.06248027769012307
+Feature Shift,Diagnoses,LightGBM,42,In-domain Test,4,3909,0.44855919121994514,0.08800204655922231
+Feature Shift,Diagnoses,LightGBM,42,In-domain Test,5,3518,0.5483298544656017,0.14951677089255258
+Feature Shift,Diagnoses,LightGBM,42,In-domain Test,6,1207,0.6388797853342639,0.22452361226180614
+Feature Shift,Diagnoses,LightGBM,42,In-domain Test,7,438,0.741551266821552,0.3264840182648402
+Feature Shift,Diagnoses,LightGBM,42,In-domain Test,8,93,0.8351190468316437,0.46236559139784944
+Feature Shift,Diagnoses,LightGBM,42,In-domain Test,9,0,,
+Feature Shift,Diagnoses,LightGBM,42,Shifted Test,0,36,0.08344807113624281,0.0
+Feature Shift,Diagnoses,LightGBM,42,Shifted Test,1,102,0.1355689153367398,0.00980392156862745
+Feature Shift,Diagnoses,LightGBM,42,Shifted Test,2,678,0.2562357680459993,0.05457227138643068
+Feature Shift,Diagnoses,LightGBM,42,Shifted Test,3,1384,0.3573534744495601,0.05852601156069364
+Feature Shift,Diagnoses,LightGBM,42,Shifted Test,4,1815,0.44692360215279026,0.08705234159779614
+Feature Shift,Diagnoses,LightGBM,42,Shifted Test,5,1858,0.5492137957632991,0.12055974165769645
+Feature Shift,Diagnoses,LightGBM,42,Shifted Test,6,703,0.6380718271559367,0.20483641536273114
+Feature Shift,Diagnoses,LightGBM,42,Shifted Test,7,167,0.7453303779670578,0.2634730538922156
+Feature Shift,Diagnoses,LightGBM,42,Shifted Test,8,32,0.8383972365409136,0.40625
+Feature Shift,Diagnoses,LightGBM,42,Shifted Test,9,6,0.9026846786340078,0.6666666666666666
+Feature Shift,Diagnoses,LightGBM,43,In-domain Test,0,135,0.06767533733337014,0.0
+Feature Shift,Diagnoses,LightGBM,43,In-domain Test,1,519,0.1694146451290862,0.04816955684007707
+Feature Shift,Diagnoses,LightGBM,43,In-domain Test,2,2760,0.25720359705712487,0.0644927536231884
+Feature Shift,Diagnoses,LightGBM,43,In-domain Test,3,3858,0.34998041110962025,0.0842405391394505
+Feature Shift,Diagnoses,LightGBM,43,In-domain Test,4,2955,0.4477654872912844,0.12419627749576988
+Feature Shift,Diagnoses,LightGBM,43,In-domain Test,5,2381,0.5468456819747386,0.14909701805963882
+Feature Shift,Diagnoses,LightGBM,43,In-domain Test,6,1162,0.6415747758033148,0.2082616179001721
+Feature Shift,Diagnoses,LightGBM,43,In-domain Test,7,401,0.7459266600466131,0.2718204488778055
+Feature Shift,Diagnoses,LightGBM,43,In-domain Test,8,97,0.8229096716212243,0.4536082474226804
+Feature Shift,Diagnoses,LightGBM,43,In-domain Test,9,0,,
+Feature Shift,Diagnoses,LightGBM,43,Shifted Test,0,94,0.07104455818362693,0.0
+Feature Shift,Diagnoses,LightGBM,43,Shifted Test,1,226,0.16715567664498776,0.030973451327433628
+Feature Shift,Diagnoses,LightGBM,43,Shifted Test,2,1326,0.2577885459788245,0.058823529411764705
+Feature Shift,Diagnoses,LightGBM,43,Shifted Test,3,1849,0.34930568321000055,0.08274743104380747
+Feature Shift,Diagnoses,LightGBM,43,Shifted Test,4,1381,0.44935431752750443,0.08834178131788559
+Feature Shift,Diagnoses,LightGBM,43,Shifted Test,5,1121,0.5480737713806125,0.15789473684210525
+Feature Shift,Diagnoses,LightGBM,43,Shifted Test,6,613,0.6374188929942071,0.19738988580750408
+Feature Shift,Diagnoses,LightGBM,43,Shifted Test,7,133,0.7371239729393694,0.23308270676691728
+Feature Shift,Diagnoses,LightGBM,43,Shifted Test,8,38,0.8241167523358998,0.4473684210526316
+Feature Shift,Diagnoses,LightGBM,43,Shifted Test,9,0,,
+Feature Shift,Diagnoses,LightGBM,44,In-domain Test,0,69,0.09007567863749422,0.0
+Feature Shift,Diagnoses,LightGBM,44,In-domain Test,1,257,0.14475659350592804,0.023346303501945526
+Feature Shift,Diagnoses,LightGBM,44,In-domain Test,2,2397,0.2660446841678472,0.05214851898206091
+Feature Shift,Diagnoses,LightGBM,44,In-domain Test,3,3504,0.34666038702612056,0.07705479452054795
+Feature Shift,Diagnoses,LightGBM,44,In-domain Test,4,2651,0.45638875284989977,0.1010939268200679
+Feature Shift,Diagnoses,LightGBM,44,In-domain Test,5,3272,0.5487388386083698,0.1363080684596577
+Feature Shift,Diagnoses,LightGBM,44,In-domain Test,6,1473,0.6407997719463004,0.22063815342837745
+Feature Shift,Diagnoses,LightGBM,44,In-domain Test,7,534,0.7466403141003869,0.2902621722846442
+Feature Shift,Diagnoses,LightGBM,44,In-domain Test,8,103,0.8281366975562087,0.5631067961165048
+Feature Shift,Diagnoses,LightGBM,44,In-domain Test,9,0,,
+Feature Shift,Diagnoses,LightGBM,44,Shifted Test,0,44,0.08879900723695755,0.0
+Feature Shift,Diagnoses,LightGBM,44,Shifted Test,1,124,0.13606378994882107,0.016129032258064516
+Feature Shift,Diagnoses,LightGBM,44,Shifted Test,2,1052,0.2670930687465595,0.05228136882129278
+Feature Shift,Diagnoses,LightGBM,44,Shifted Test,3,1552,0.34460810687124116,0.06829896907216494
+Feature Shift,Diagnoses,LightGBM,44,Shifted Test,4,1301,0.4565339105849446,0.09377401998462721
+Feature Shift,Diagnoses,LightGBM,44,Shifted Test,5,1710,0.5528505288369474,0.11695906432748537
+Feature Shift,Diagnoses,LightGBM,44,Shifted Test,6,842,0.6388893270435922,0.2042755344418052
+Feature Shift,Diagnoses,LightGBM,44,Shifted Test,7,114,0.7494818991736362,0.2631578947368421
+Feature Shift,Diagnoses,LightGBM,44,Shifted Test,8,41,0.8363639944937171,0.43902439024390244
+Feature Shift,Diagnoses,LightGBM,44,Shifted Test,9,1,0.9015204310417175,1.0
+Feature Shift,Diagnoses,Logistic Regression,42,In-domain Test,0,0,,
+Feature Shift,Diagnoses,Logistic Regression,42,In-domain Test,1,8,0.18552140146493912,0.0
+Feature Shift,Diagnoses,Logistic Regression,42,In-domain Test,2,7,0.23063674782003676,0.0
+Feature Shift,Diagnoses,Logistic Regression,42,In-domain Test,3,21,0.3829489932173774,0.0
+Feature Shift,Diagnoses,Logistic Regression,42,In-domain Test,4,396,0.4757005144851376,0.05303030303030303
+Feature Shift,Diagnoses,Logistic Regression,42,In-domain Test,5,4463,0.5626651246452075,0.06609903652251849
+Feature Shift,Diagnoses,Logistic Regression,42,In-domain Test,6,6415,0.6449948434985808,0.10802805923616524
+Feature Shift,Diagnoses,Logistic Regression,42,In-domain Test,7,2190,0.7392680664312894,0.17899543378995433
+Feature Shift,Diagnoses,Logistic Regression,42,In-domain Test,8,557,0.838224727332699,0.2621184919210054
+Feature Shift,Diagnoses,Logistic Regression,42,In-domain Test,9,135,0.9349486836680659,0.43703703703703706
+Feature Shift,Diagnoses,Logistic Regression,42,Shifted Test,0,0,,
+Feature Shift,Diagnoses,Logistic Regression,42,Shifted Test,1,4,0.1783084124326706,0.25
+Feature Shift,Diagnoses,Logistic Regression,42,Shifted Test,2,0,,
+Feature Shift,Diagnoses,Logistic Regression,42,Shifted Test,3,2,0.37790238857269287,0.0
+Feature Shift,Diagnoses,Logistic Regression,42,Shifted Test,4,152,0.4754094804980253,0.039473684210526314
+Feature Shift,Diagnoses,Logistic Regression,42,Shifted Test,5,2091,0.5617117741813733,0.06121472979435677
+Feature Shift,Diagnoses,Logistic Regression,42,Shifted Test,6,3110,0.6453833965243251,0.0977491961414791
+Feature Shift,Diagnoses,Logistic Regression,42,Shifted Test,7,1107,0.7387507137890431,0.16892502258355918
+Feature Shift,Diagnoses,Logistic Regression,42,Shifted Test,8,262,0.8357765037594861,0.23282442748091603
+Feature Shift,Diagnoses,Logistic Regression,42,Shifted Test,9,53,0.9380912319669183,0.3584905660377358
+Feature Shift,Diagnoses,Logistic Regression,43,In-domain Test,0,0,,
+Feature Shift,Diagnoses,Logistic Regression,43,In-domain Test,1,0,,
+Feature Shift,Diagnoses,Logistic Regression,43,In-domain Test,2,12,0.28219784547885257,0.0
+Feature Shift,Diagnoses,Logistic Regression,43,In-domain Test,3,25,0.3472680926322937,0.08
+Feature Shift,Diagnoses,Logistic Regression,43,In-domain Test,4,119,0.4583383485549638,0.05042016806722689
+Feature Shift,Diagnoses,Logistic Regression,43,In-domain Test,5,2476,0.5684446147936418,0.07390953150242327
+Feature Shift,Diagnoses,Logistic Regression,43,In-domain Test,6,6784,0.6498918841100948,0.0972877358490566
+Feature Shift,Diagnoses,Logistic Regression,43,In-domain Test,7,3670,0.7406906349944808,0.13950953678474115
+Feature Shift,Diagnoses,Logistic Regression,43,In-domain Test,8,990,0.8404101120703148,0.21313131313131314
+Feature Shift,Diagnoses,Logistic Regression,43,In-domain Test,9,192,0.9348792269205054,0.3697916666666667
+Feature Shift,Diagnoses,Logistic Regression,43,Shifted Test,0,0,,
+Feature Shift,Diagnoses,Logistic Regression,43,Shifted Test,1,0,,
+Feature Shift,Diagnoses,Logistic Regression,43,Shifted Test,2,4,0.28239409625530243,0.25
+Feature Shift,Diagnoses,Logistic Regression,43,Shifted Test,3,8,0.36645133793354034,0.0
+Feature Shift,Diagnoses,Logistic Regression,43,Shifted Test,4,58,0.47038995551651924,0.017241379310344827
+Feature Shift,Diagnoses,Logistic Regression,43,Shifted Test,5,1267,0.5676829134655826,0.05761641673243883
+Feature Shift,Diagnoses,Logistic Regression,43,Shifted Test,6,3148,0.6511205187898125,0.08767471410419314
+Feature Shift,Diagnoses,Logistic Regression,43,Shifted Test,7,1759,0.7408844226459809,0.1381466742467311
+Feature Shift,Diagnoses,Logistic Regression,43,Shifted Test,8,455,0.8365138497981396,0.1934065934065934
+Feature Shift,Diagnoses,Logistic Regression,43,Shifted Test,9,82,0.9357797503471375,0.2926829268292683
+Feature Shift,Diagnoses,Logistic Regression,44,In-domain Test,0,0,,
+Feature Shift,Diagnoses,Logistic Regression,44,In-domain Test,1,2,0.1920609101653099,0.0
+Feature Shift,Diagnoses,Logistic Regression,44,In-domain Test,2,14,0.22407386345522745,0.0
+Feature Shift,Diagnoses,Logistic Regression,44,In-domain Test,3,10,0.37506049275398257,0.0
+Feature Shift,Diagnoses,Logistic Regression,44,In-domain Test,4,534,0.47615107536762397,0.056179775280898875
+Feature Shift,Diagnoses,Logistic Regression,44,In-domain Test,5,4792,0.5594180574102673,0.07220367278797997
+Feature Shift,Diagnoses,Logistic Regression,44,In-domain Test,6,5786,0.6438684451654219,0.11510542689249914
+Feature Shift,Diagnoses,Logistic Regression,44,In-domain Test,7,2296,0.7400167921901996,0.16506968641114983
+Feature Shift,Diagnoses,Logistic Regression,44,In-domain Test,8,646,0.8401521655612686,0.23993808049535603
+Feature Shift,Diagnoses,Logistic Regression,44,In-domain Test,9,180,0.9395665387312572,0.42777777777777776
+Feature Shift,Diagnoses,Logistic Regression,44,Shifted Test,0,0,,
+Feature Shift,Diagnoses,Logistic Regression,44,Shifted Test,1,1,0.18715240061283112,0.0
+Feature Shift,Diagnoses,Logistic Regression,44,Shifted Test,2,3,0.21087430914243063,0.3333333333333333
+Feature Shift,Diagnoses,Logistic Regression,44,Shifted Test,3,1,0.397673636674881,0.0
+Feature Shift,Diagnoses,Logistic Regression,44,Shifted Test,4,157,0.47884333076750396,0.025477707006369428
+Feature Shift,Diagnoses,Logistic Regression,44,Shifted Test,5,2087,0.5609543022780425,0.06468615237182558
+Feature Shift,Diagnoses,Logistic Regression,44,Shifted Test,6,2959,0.6453189118845554,0.09665427509293681
+Feature Shift,Diagnoses,Logistic Regression,44,Shifted Test,7,1214,0.7400260080124637,0.15980230642504117
+Feature Shift,Diagnoses,Logistic Regression,44,Shifted Test,8,296,0.8367789713917552,0.2195945945945946
+Feature Shift,Diagnoses,Logistic Regression,44,Shifted Test,9,63,0.9362803044773284,0.3333333333333333
+Feature Shift,Medications,LightGBM,42,In-domain Test,0,171,0.07964419728221252,0.005847953216374269
+Feature Shift,Medications,LightGBM,42,In-domain Test,1,1370,0.15988224485386027,0.03941605839416058
+Feature Shift,Medications,LightGBM,42,In-domain Test,2,3470,0.25330548824941046,0.06368876080691642
+Feature Shift,Medications,LightGBM,42,In-domain Test,3,2808,0.34489077034584137,0.08796296296296297
+Feature Shift,Medications,LightGBM,42,In-domain Test,4,2634,0.4522339616567688,0.12452543659832954
+Feature Shift,Medications,LightGBM,42,In-domain Test,5,2330,0.5431864857417831,0.15836909871244637
+Feature Shift,Medications,LightGBM,42,In-domain Test,6,899,0.6436799338980432,0.24026696329254726
+Feature Shift,Medications,LightGBM,42,In-domain Test,7,426,0.7439707540010623,0.3051643192488263
+Feature Shift,Medications,LightGBM,42,In-domain Test,8,84,0.8332815241245997,0.47619047619047616
+Feature Shift,Medications,LightGBM,42,In-domain Test,9,0,,
+Feature Shift,Medications,LightGBM,42,Shifted Test,0,70,0.08103961340550865,0.0
+Feature Shift,Medications,LightGBM,42,Shifted Test,1,576,0.1585113219399419,0.04513888888888889
+Feature Shift,Medications,LightGBM,42,Shifted Test,2,1443,0.25313130554976104,0.06514206514206514
+Feature Shift,Medications,LightGBM,42,Shifted Test,3,1394,0.3475101519605864,0.07317073170731707
+Feature Shift,Medications,LightGBM,42,Shifted Test,4,1352,0.45064271816752366,0.11538461538461539
+Feature Shift,Medications,LightGBM,42,Shifted Test,5,1308,0.5417997425575869,0.13149847094801223
+Feature Shift,Medications,LightGBM,42,Shifted Test,6,474,0.6382830840877339,0.21308016877637131
+Feature Shift,Medications,LightGBM,42,Shifted Test,7,124,0.7476515875708672,0.28225806451612906
+Feature Shift,Medications,LightGBM,42,Shifted Test,8,35,0.8328216229166303,0.4857142857142857
+Feature Shift,Medications,LightGBM,42,Shifted Test,9,5,0.911521029472351,0.6
+Feature Shift,Medications,LightGBM,43,In-domain Test,0,196,0.07120775706039703,0.01020408163265306
+Feature Shift,Medications,LightGBM,43,In-domain Test,1,853,0.16160564681849193,0.04220398593200469
+Feature Shift,Medications,LightGBM,43,In-domain Test,2,2522,0.25603221979621477,0.05789056304520222
+Feature Shift,Medications,LightGBM,43,In-domain Test,3,3395,0.3498180399850472,0.08335787923416789
+Feature Shift,Medications,LightGBM,43,In-domain Test,4,3086,0.44918596073357375,0.12151652624756967
+Feature Shift,Medications,LightGBM,43,In-domain Test,5,2378,0.5438999196027285,0.15727502102607233
+Feature Shift,Medications,LightGBM,43,In-domain Test,6,1227,0.6417211892163743,0.20293398533007334
+Feature Shift,Medications,LightGBM,43,In-domain Test,7,454,0.7422368074828832,0.2643171806167401
+Feature Shift,Medications,LightGBM,43,In-domain Test,8,154,0.8315603860786983,0.37662337662337664
+Feature Shift,Medications,LightGBM,43,In-domain Test,9,3,0.9113991260528564,0.6666666666666666
+Feature Shift,Medications,LightGBM,43,Shifted Test,0,112,0.07346103012761367,0.0
+Feature Shift,Medications,LightGBM,43,Shifted Test,1,391,0.16286494800120668,0.043478260869565216
+Feature Shift,Medications,LightGBM,43,Shifted Test,2,1361,0.25394834062354166,0.0683321087435709
+Feature Shift,Medications,LightGBM,43,Shifted Test,3,1656,0.34968284983637826,0.07065217391304347
+Feature Shift,Medications,LightGBM,43,Shifted Test,4,1586,0.44915095928112164,0.10403530895334175
+Feature Shift,Medications,LightGBM,43,Shifted Test,5,974,0.545470926061548,0.15503080082135523
+Feature Shift,Medications,LightGBM,43,Shifted Test,6,510,0.6436711528721978,0.21372549019607842
+Feature Shift,Medications,LightGBM,43,Shifted Test,7,130,0.740859540609213,0.2230769230769231
+Feature Shift,Medications,LightGBM,43,Shifted Test,8,61,0.8410250720430593,0.4098360655737705
+Feature Shift,Medications,LightGBM,43,Shifted Test,9,0,,
+Feature Shift,Medications,LightGBM,44,In-domain Test,0,113,0.0845830737555449,0.008849557522123894
+Feature Shift,Medications,LightGBM,44,In-domain Test,1,806,0.1601129968745389,0.03225806451612903
+Feature Shift,Medications,LightGBM,44,In-domain Test,2,2530,0.258424484034772,0.06284584980237154
+Feature Shift,Medications,LightGBM,44,In-domain Test,3,3121,0.3484264293262417,0.0775392502403076
+Feature Shift,Medications,LightGBM,44,In-domain Test,4,3070,0.4500470195414577,0.11172638436482085
+Feature Shift,Medications,LightGBM,44,In-domain Test,5,2754,0.5468795172702426,0.15105301379811184
+Feature Shift,Medications,LightGBM,44,In-domain Test,6,1274,0.6403410946555564,0.20408163265306123
+Feature Shift,Medications,LightGBM,44,In-domain Test,7,472,0.7464916631579399,0.3114406779661017
+Feature Shift,Medications,LightGBM,44,In-domain Test,8,119,0.8256044122351318,0.4957983193277311
+Feature Shift,Medications,LightGBM,44,In-domain Test,9,1,0.9007176756858826,0.0
+Feature Shift,Medications,LightGBM,44,Shifted Test,0,71,0.08221368318502333,0.0
+Feature Shift,Medications,LightGBM,44,Shifted Test,1,387,0.16130531569629986,0.03875968992248062
+Feature Shift,Medications,LightGBM,44,Shifted Test,2,1163,0.2559696422731272,0.058469475494411005
+Feature Shift,Medications,LightGBM,44,Shifted Test,3,1460,0.3485939403306948,0.06986301369863014
+Feature Shift,Medications,LightGBM,44,Shifted Test,4,1551,0.4505215026846553,0.10444874274661509
+Feature Shift,Medications,LightGBM,44,Shifted Test,5,1410,0.5496453864777342,0.1326241134751773
+Feature Shift,Medications,LightGBM,44,Shifted Test,6,581,0.6381485287786146,0.20309810671256454
+Feature Shift,Medications,LightGBM,44,Shifted Test,7,114,0.747053854821021,0.2807017543859649
+Feature Shift,Medications,LightGBM,44,Shifted Test,8,41,0.8375094213136812,0.4634146341463415
+Feature Shift,Medications,LightGBM,44,Shifted Test,9,3,0.9074628750483195,1.0
+Feature Shift,Medications,Logistic Regression,42,In-domain Test,0,27,0.06787471011005065,0.037037037037037035
+Feature Shift,Medications,Logistic Regression,42,In-domain Test,1,102,0.1642026226310169,0.029411764705882353
+Feature Shift,Medications,Logistic Regression,42,In-domain Test,2,282,0.2549265118989539,0.05673758865248227
+Feature Shift,Medications,Logistic Regression,42,In-domain Test,3,511,0.35586193227254714,0.0547945205479452
+Feature Shift,Medications,Logistic Regression,42,In-domain Test,4,1141,0.4581816648569784,0.060473269062226116
+Feature Shift,Medications,Logistic Regression,42,In-domain Test,5,2553,0.5554380352666133,0.07520564042303172
+Feature Shift,Medications,Logistic Regression,42,In-domain Test,6,4075,0.6521556076389149,0.0947239263803681
+Feature Shift,Medications,Logistic Regression,42,In-domain Test,7,3550,0.7470939914777245,0.13971830985915493
+Feature Shift,Medications,Logistic Regression,42,In-domain Test,8,1596,0.8416539472072644,0.18107769423558898
+Feature Shift,Medications,Logistic Regression,42,In-domain Test,9,355,0.9330434141024737,0.35492957746478876
+Feature Shift,Medications,Logistic Regression,42,Shifted Test,0,11,0.07443631948395209,0.0
+Feature Shift,Medications,Logistic Regression,42,Shifted Test,1,51,0.16291281668578877,0.058823529411764705
+Feature Shift,Medications,Logistic Regression,42,Shifted Test,2,120,0.2593635463466247,0.058333333333333334
+Feature Shift,Medications,Logistic Regression,42,Shifted Test,3,250,0.3550455641746521,0.06
+Feature Shift,Medications,Logistic Regression,42,Shifted Test,4,558,0.45850489291238955,0.07526881720430108
+Feature Shift,Medications,Logistic Regression,42,Shifted Test,5,1252,0.5549137086247484,0.07268370607028754
+Feature Shift,Medications,Logistic Regression,42,Shifted Test,6,1983,0.6503365612126214,0.08421583459404942
+Feature Shift,Medications,Logistic Regression,42,Shifted Test,7,1683,0.7451624602557504,0.11942959001782531
+Feature Shift,Medications,Logistic Regression,42,Shifted Test,8,744,0.8390625567045263,0.1868279569892473
+Feature Shift,Medications,Logistic Regression,42,Shifted Test,9,129,0.9343884467154511,0.3178294573643411
+Feature Shift,Medications,Logistic Regression,43,In-domain Test,0,46,0.06849697260590999,0.043478260869565216
+Feature Shift,Medications,Logistic Regression,43,In-domain Test,1,121,0.15584317231473843,0.01652892561983471
+Feature Shift,Medications,Logistic Regression,43,In-domain Test,2,218,0.25422804399367865,0.05963302752293578
+Feature Shift,Medications,Logistic Regression,43,In-domain Test,3,453,0.35549495472813286,0.0728476821192053
+Feature Shift,Medications,Logistic Regression,43,In-domain Test,4,1067,0.45674874314439556,0.06841611996251172
+Feature Shift,Medications,Logistic Regression,43,In-domain Test,5,2364,0.5555369699162679,0.07571912013536379
+Feature Shift,Medications,Logistic Regression,43,In-domain Test,6,3852,0.6519093246877131,0.10332294911734165
+Feature Shift,Medications,Logistic Regression,43,In-domain Test,7,3762,0.7479324142296602,0.1238702817650186
+Feature Shift,Medications,Logistic Regression,43,In-domain Test,8,1958,0.841740170465183,0.17926455566905006
+Feature Shift,Medications,Logistic Regression,43,In-domain Test,9,427,0.9325090356397964,0.2997658079625293
+Feature Shift,Medications,Logistic Regression,43,Shifted Test,0,17,0.06832350538495709,0.058823529411764705
+Feature Shift,Medications,Logistic Regression,43,Shifted Test,1,31,0.15325426454505614,0.16129032258064516
+Feature Shift,Medications,Logistic Regression,43,Shifted Test,2,107,0.2553207794918078,0.07476635514018691
+Feature Shift,Medications,Logistic Regression,43,Shifted Test,3,204,0.3573297921056841,0.058823529411764705
+Feature Shift,Medications,Logistic Regression,43,Shifted Test,4,536,0.4569904761416699,0.055970149253731345
+Feature Shift,Medications,Logistic Regression,43,Shifted Test,5,1265,0.555148322356077,0.06798418972332015
+Feature Shift,Medications,Logistic Regression,43,Shifted Test,6,1917,0.6506127609395708,0.08868022952529994
+Feature Shift,Medications,Logistic Regression,43,Shifted Test,7,1720,0.7464524828763895,0.11744186046511627
+Feature Shift,Medications,Logistic Regression,43,Shifted Test,8,832,0.8408763940231159,0.17668269230769232
+Feature Shift,Medications,Logistic Regression,43,Shifted Test,9,152,0.9364495712675547,0.29605263157894735
+Feature Shift,Medications,Logistic Regression,44,In-domain Test,0,22,0.07007498615844683,0.0
+Feature Shift,Medications,Logistic Regression,44,In-domain Test,1,91,0.15487967194109173,0.03296703296703297
+Feature Shift,Medications,Logistic Regression,44,In-domain Test,2,212,0.2571801834933038,0.05660377358490566
+Feature Shift,Medications,Logistic Regression,44,In-domain Test,3,354,0.3530025211094463,0.06497175141242938
+Feature Shift,Medications,Logistic Regression,44,In-domain Test,4,800,0.4582029202207923,0.0725
+Feature Shift,Medications,Logistic Regression,44,In-domain Test,5,1956,0.5568397870641545,0.06748466257668712
+Feature Shift,Medications,Logistic Regression,44,In-domain Test,6,3658,0.6532359244459767,0.09212684527063969
+Feature Shift,Medications,Logistic Regression,44,In-domain Test,7,4179,0.7487442164251068,0.12060301507537688
+Feature Shift,Medications,Logistic Regression,44,In-domain Test,8,2426,0.8421063039141653,0.16694146743610883
+Feature Shift,Medications,Logistic Regression,44,In-domain Test,9,562,0.9324311754033234,0.3185053380782918
+Feature Shift,Medications,Logistic Regression,44,Shifted Test,0,3,0.04047500900924206,0.0
+Feature Shift,Medications,Logistic Regression,44,Shifted Test,1,25,0.14301697552204132,0.08
+Feature Shift,Medications,Logistic Regression,44,Shifted Test,2,78,0.2591763205635242,0.0641025641025641
+Feature Shift,Medications,Logistic Regression,44,Shifted Test,3,148,0.3612614519692756,0.08108108108108109
+Feature Shift,Medications,Logistic Regression,44,Shifted Test,4,376,0.456501517761895,0.06382978723404255
+Feature Shift,Medications,Logistic Regression,44,Shifted Test,5,973,0.5575253684743703,0.06680369989722508
+Feature Shift,Medications,Logistic Regression,44,Shifted Test,6,1733,0.6540022874181145,0.07501442585112522
+Feature Shift,Medications,Logistic Regression,44,Shifted Test,7,2088,0.7486024730449892,0.10344827586206896
+Feature Shift,Medications,Logistic Regression,44,Shifted Test,8,1146,0.8413097690433315,0.16753926701570682
+Feature Shift,Medications,Logistic Regression,44,Shifted Test,9,211,0.9336506518142483,0.2843601895734597
+Label Noise,0% Noise,LightGBM,42,In-domain Test,0,103,0.07934727422097354,0.0
+Label Noise,0% Noise,LightGBM,42,In-domain Test,1,557,0.15994601203145417,0.03052064631956912
+Label Noise,0% Noise,LightGBM,42,In-domain Test,2,1802,0.2582553652147209,0.041620421753607105
+Label Noise,0% Noise,LightGBM,42,In-domain Test,3,3148,0.3524754452016181,0.0724269377382465
+Label Noise,0% Noise,LightGBM,42,In-domain Test,4,3496,0.4497571770843434,0.09525171624713959
+Label Noise,0% Noise,LightGBM,42,In-domain Test,5,3119,0.5470123830113742,0.1484450144277012
+Label Noise,0% Noise,LightGBM,42,In-domain Test,6,1292,0.6407834439085733,0.2089783281733746
+Label Noise,0% Noise,LightGBM,42,In-domain Test,7,549,0.7423428376298568,0.29143897996357016
+Label Noise,0% Noise,LightGBM,42,In-domain Test,8,125,0.8358324108123779,0.48
+Label Noise,0% Noise,LightGBM,42,In-domain Test,9,1,0.9028463959693909,0.0
+Label Noise,0% Noise,LightGBM,42,Shifted Test,0,44,0.07933158757673069,0.0
+Label Noise,0% Noise,LightGBM,42,Shifted Test,1,214,0.15349987894296646,0.018691588785046728
+Label Noise,0% Noise,LightGBM,42,Shifted Test,2,781,0.2590026371801098,0.06658130601792574
+Label Noise,0% Noise,LightGBM,42,Shifted Test,3,1470,0.35389801553722955,0.05782312925170068
+Label Noise,0% Noise,LightGBM,42,Shifted Test,4,1698,0.4489359956748073,0.09187279151943463
+Label Noise,0% Noise,LightGBM,42,Shifted Test,5,1626,0.5481138276657935,0.12238622386223862
+Label Noise,0% Noise,LightGBM,42,Shifted Test,6,718,0.6398778835046922,0.19080779944289694
+Label Noise,0% Noise,LightGBM,42,Shifted Test,7,177,0.7436930685393555,0.2655367231638418
+Label Noise,0% Noise,LightGBM,42,Shifted Test,8,46,0.8317598221094712,0.4782608695652174
+Label Noise,0% Noise,LightGBM,42,Shifted Test,9,7,0.9150604775973729,0.5714285714285714
+Label Noise,0% Noise,LightGBM,43,In-domain Test,0,164,0.0718503394050569,0.006097560975609756
+Label Noise,0% Noise,LightGBM,43,In-domain Test,1,662,0.15876191201707027,0.03625377643504532
+Label Noise,0% Noise,LightGBM,43,In-domain Test,2,1856,0.2568015891111231,0.05387931034482758
+Label Noise,0% Noise,LightGBM,43,In-domain Test,3,3137,0.35269651360332416,0.07299968122409946
+Label Noise,0% Noise,LightGBM,43,In-domain Test,4,3417,0.4495884658807476,0.11120866256950541
+Label Noise,0% Noise,LightGBM,43,In-domain Test,5,2863,0.5451058072515855,0.14320642682500873
+Label Noise,0% Noise,LightGBM,43,In-domain Test,6,1443,0.6429535393407587,0.19889119889119888
+Label Noise,0% Noise,LightGBM,43,In-domain Test,7,533,0.7424305624854498,0.2570356472795497
+Label Noise,0% Noise,LightGBM,43,In-domain Test,8,191,0.8287198250206353,0.39790575916230364
+Label Noise,0% Noise,LightGBM,43,In-domain Test,9,2,0.9052897393703461,0.5
+Label Noise,0% Noise,LightGBM,43,Shifted Test,0,92,0.07535096338909605,0.0
+Label Noise,0% Noise,LightGBM,43,Shifted Test,1,276,0.1633881760518188,0.03260869565217391
+Label Noise,0% Noise,LightGBM,43,Shifted Test,2,902,0.2580440253052373,0.05321507760532151
+Label Noise,0% Noise,LightGBM,43,Shifted Test,3,1513,0.35218222686492756,0.07468605419695969
+Label Noise,0% Noise,LightGBM,43,Shifted Test,4,1622,0.44946084301068956,0.08508014796547472
+Label Noise,0% Noise,LightGBM,43,Shifted Test,5,1409,0.546182983263407,0.1270404542228531
+Label Noise,0% Noise,LightGBM,43,Shifted Test,6,721,0.6448906455059819,0.20110957004160887
+Label Noise,0% Noise,LightGBM,43,Shifted Test,7,178,0.7367158957411734,0.25842696629213485
+Label Noise,0% Noise,LightGBM,43,Shifted Test,8,68,0.8385003621087355,0.4117647058823529
+Label Noise,0% Noise,LightGBM,43,Shifted Test,9,0,,
+Label Noise,0% Noise,LightGBM,44,In-domain Test,0,83,0.08607437344918768,0.012048192771084338
+Label Noise,0% Noise,LightGBM,44,In-domain Test,1,595,0.15582757259116453,0.03865546218487395
+Label Noise,0% Noise,LightGBM,44,In-domain Test,2,1846,0.2598746386260795,0.051462621885157094
+Label Noise,0% Noise,LightGBM,44,In-domain Test,3,3293,0.35070837367605445,0.07440024293956879
+Label Noise,0% Noise,LightGBM,44,In-domain Test,4,3123,0.4506592189238845,0.09574127441562601
+Label Noise,0% Noise,LightGBM,44,In-domain Test,5,3022,0.5474992213384905,0.14162806088682992
+Label Noise,0% Noise,LightGBM,44,In-domain Test,6,1593,0.6414612917052973,0.20841180163214063
+Label Noise,0% Noise,LightGBM,44,In-domain Test,7,554,0.748346222006457,0.2870036101083033
+Label Noise,0% Noise,LightGBM,44,In-domain Test,8,150,0.8279690861701965,0.47333333333333333
+Label Noise,0% Noise,LightGBM,44,In-domain Test,9,1,0.9121546149253845,0.0
+Label Noise,0% Noise,LightGBM,44,Shifted Test,0,57,0.08496119827032089,0.0
+Label Noise,0% Noise,LightGBM,44,Shifted Test,1,275,0.1554780773953958,0.02909090909090909
+Label Noise,0% Noise,LightGBM,44,Shifted Test,2,843,0.26026146734312333,0.05693950177935943
+Label Noise,0% Noise,LightGBM,44,Shifted Test,3,1485,0.34991536501682163,0.061952861952861954
+Label Noise,0% Noise,LightGBM,44,Shifted Test,4,1526,0.45135681010870604,0.09567496723460026
+Label Noise,0% Noise,LightGBM,44,Shifted Test,5,1558,0.5486629411712078,0.12259306803594351
+Label Noise,0% Noise,LightGBM,44,Shifted Test,6,833,0.6390455436735165,0.18967587034813926
+Label Noise,0% Noise,LightGBM,44,Shifted Test,7,147,0.7430319254901133,0.24489795918367346
+Label Noise,0% Noise,LightGBM,44,Shifted Test,8,53,0.8336084192653872,0.4339622641509434
+Label Noise,0% Noise,LightGBM,44,Shifted Test,9,4,0.9082783609628677,1.0
+Label Noise,0% Noise,Logistic Regression,42,In-domain Test,0,168,0.07183729788743048,0.041666666666666664
+Label Noise,0% Noise,Logistic Regression,42,In-domain Test,1,633,0.15676950489128183,0.05055292259083728
+Label Noise,0% Noise,Logistic Regression,42,In-domain Test,2,1554,0.25845459392210385,0.06113256113256113
+Label Noise,0% Noise,Logistic Regression,42,In-domain Test,3,3072,0.35451941791689023,0.078125
+Label Noise,0% Noise,Logistic Regression,42,In-domain Test,4,3656,0.449875294795378,0.09682713347921225
+Label Noise,0% Noise,Logistic Regression,42,In-domain Test,5,2664,0.545241354128441,0.14527027027027026
+Label Noise,0% Noise,Logistic Regression,42,In-domain Test,6,1509,0.6428409353876209,0.15705765407554673
+Label Noise,0% Noise,Logistic Regression,42,In-domain Test,7,632,0.7456669954559471,0.22151898734177214
+Label Noise,0% Noise,Logistic Regression,42,In-domain Test,8,238,0.8435465535696816,0.36134453781512604
+Label Noise,0% Noise,Logistic Regression,42,In-domain Test,9,66,0.9404656200697927,0.42424242424242425
+Label Noise,0% Noise,Logistic Regression,42,Shifted Test,0,73,0.0706297411417512,0.0684931506849315
+Label Noise,0% Noise,Logistic Regression,42,Shifted Test,1,302,0.15982328986884742,0.059602649006622516
+Label Noise,0% Noise,Logistic Regression,42,Shifted Test,2,738,0.2596130755737545,0.06639566395663957
+Label Noise,0% Noise,Logistic Regression,42,Shifted Test,3,1480,0.3539590739317842,0.075
+Label Noise,0% Noise,Logistic Regression,42,Shifted Test,4,1798,0.44796804061057965,0.08954393770856507
+Label Noise,0% Noise,Logistic Regression,42,Shifted Test,5,1284,0.543602650317819,0.11292834890965732
+Label Noise,0% Noise,Logistic Regression,42,Shifted Test,6,716,0.644288641031228,0.16620111731843576
+Label Noise,0% Noise,Logistic Regression,42,Shifted Test,7,279,0.7400809325624965,0.22580645161290322
+Label Noise,0% Noise,Logistic Regression,42,Shifted Test,8,83,0.8413196658513632,0.25301204819277107
+Label Noise,0% Noise,Logistic Regression,42,Shifted Test,9,28,0.950831168464252,0.5
+Label Noise,0% Noise,Logistic Regression,43,In-domain Test,0,214,0.06298662563481272,0.03271028037383177
+Label Noise,0% Noise,Logistic Regression,43,In-domain Test,1,604,0.1576802179784767,0.06622516556291391
+Label Noise,0% Noise,Logistic Regression,43,In-domain Test,2,1656,0.2570834103161874,0.06944444444444445
+Label Noise,0% Noise,Logistic Regression,43,In-domain Test,3,3101,0.35284844079312877,0.08384392131570462
+Label Noise,0% Noise,Logistic Regression,43,In-domain Test,4,3446,0.44884313438876866,0.10504933255948927
+Label Noise,0% Noise,Logistic Regression,43,In-domain Test,5,2686,0.5458274682732722,0.13067758749069247
+Label Noise,0% Noise,Logistic Regression,43,In-domain Test,6,1530,0.6440018501936221,0.16405228758169935
+Label Noise,0% Noise,Logistic Regression,43,In-domain Test,7,701,0.7436490315683558,0.2268188302425107
+Label Noise,0% Noise,Logistic Regression,43,In-domain Test,8,256,0.8414135796483606,0.25390625
+Label Noise,0% Noise,Logistic Regression,43,In-domain Test,9,74,0.9383001134202287,0.47297297297297297
+Label Noise,0% Noise,Logistic Regression,43,Shifted Test,0,64,0.061234414592036046,0.09375
+Label Noise,0% Noise,Logistic Regression,43,Shifted Test,1,305,0.15880629891743425,0.06229508196721312
+Label Noise,0% Noise,Logistic Regression,43,Shifted Test,2,842,0.25838678689439054,0.06532066508313539
+Label Noise,0% Noise,Logistic Regression,43,Shifted Test,3,1623,0.3534171369365168,0.07578558225508318
+Label Noise,0% Noise,Logistic Regression,43,Shifted Test,4,1655,0.4492478140891499,0.08700906344410876
+Label Noise,0% Noise,Logistic Regression,43,Shifted Test,5,1220,0.5461311727762223,0.12704918032786885
+Label Noise,0% Noise,Logistic Regression,43,Shifted Test,6,665,0.6448129784791989,0.16390977443609023
+Label Noise,0% Noise,Logistic Regression,43,Shifted Test,7,287,0.7417347217270721,0.21951219512195122
+Label Noise,0% Noise,Logistic Regression,43,Shifted Test,8,87,0.8427713575034306,0.19540229885057472
+Label Noise,0% Noise,Logistic Regression,43,Shifted Test,9,33,0.9479433803847341,0.45454545454545453
+Label Noise,0% Noise,Logistic Regression,44,In-domain Test,0,180,0.06744146125598086,0.03333333333333333
+Label Noise,0% Noise,Logistic Regression,44,In-domain Test,1,605,0.15471391948786647,0.07107438016528926
+Label Noise,0% Noise,Logistic Regression,44,In-domain Test,2,1556,0.2577409402474493,0.06555269922879177
+Label Noise,0% Noise,Logistic Regression,44,In-domain Test,3,3087,0.35392876435222076,0.07936507936507936
+Label Noise,0% Noise,Logistic Regression,44,In-domain Test,4,3447,0.44916830254458745,0.10385842761821874
+Label Noise,0% Noise,Logistic Regression,44,In-domain Test,5,2725,0.5467124240114054,0.1324770642201835
+Label Noise,0% Noise,Logistic Regression,44,In-domain Test,6,1575,0.6453226787703378,0.16507936507936508
+Label Noise,0% Noise,Logistic Regression,44,In-domain Test,7,740,0.7438018950256141,0.2
+Label Noise,0% Noise,Logistic Regression,44,In-domain Test,8,249,0.8427096909308529,0.3293172690763052
+Label Noise,0% Noise,Logistic Regression,44,In-domain Test,9,96,0.940803112462163,0.5
+Label Noise,0% Noise,Logistic Regression,44,Shifted Test,0,53,0.06900571675022256,0.09433962264150944
+Label Noise,0% Noise,Logistic Regression,44,Shifted Test,1,242,0.15909327191015907,0.07851239669421488
+Label Noise,0% Noise,Logistic Regression,44,Shifted Test,2,749,0.258551757509145,0.05874499332443257
+Label Noise,0% Noise,Logistic Regression,44,Shifted Test,3,1424,0.35329401539115424,0.07162921348314606
+Label Noise,0% Noise,Logistic Regression,44,Shifted Test,4,1727,0.4496560324874308,0.08164447017950202
+Label Noise,0% Noise,Logistic Regression,44,Shifted Test,5,1372,0.5457892411825608,0.11734693877551021
+Label Noise,0% Noise,Logistic Regression,44,Shifted Test,6,758,0.6456874455657043,0.17810026385224276
+Label Noise,0% Noise,Logistic Regression,44,Shifted Test,7,310,0.7381440322245321,0.18387096774193548
+Label Noise,0% Noise,Logistic Regression,44,Shifted Test,8,114,0.8387996371377978,0.22807017543859648
+Label Noise,0% Noise,Logistic Regression,44,Shifted Test,9,32,0.94848851300776,0.5
+Label Noise,10% Noise,LightGBM,42,In-domain Test,0,0,,
+Label Noise,10% Noise,LightGBM,42,In-domain Test,1,12,0.17101460322737694,0.0
+Label Noise,10% Noise,LightGBM,42,In-domain Test,2,225,0.2671444149812063,0.022222222222222223
+Label Noise,10% Noise,LightGBM,42,In-domain Test,3,1782,0.3641714451857555,0.058922558922558925
+Label Noise,10% Noise,LightGBM,42,In-domain Test,4,6794,0.45403586203451185,0.08213129231675008
+Label Noise,10% Noise,LightGBM,42,In-domain Test,5,4215,0.5372584224454308,0.14519572953736654
+Label Noise,10% Noise,LightGBM,42,In-domain Test,6,954,0.6327247422821117,0.2526205450733753
+Label Noise,10% Noise,LightGBM,42,In-domain Test,7,201,0.7365970317997149,0.4079601990049751
+Label Noise,10% Noise,LightGBM,42,In-domain Test,8,9,0.8143551283412509,0.3333333333333333
+Label Noise,10% Noise,LightGBM,42,In-domain Test,9,0,,
+Label Noise,10% Noise,LightGBM,42,Shifted Test,0,0,,
+Label Noise,10% Noise,LightGBM,42,Shifted Test,1,9,0.16266258226500618,0.0
+Label Noise,10% Noise,LightGBM,42,Shifted Test,2,103,0.2695952613376877,0.07766990291262135
+Label Noise,10% Noise,LightGBM,42,Shifted Test,3,877,0.3643857273299719,0.052451539338654506
+Label Noise,10% Noise,LightGBM,42,Shifted Test,4,2901,0.4552338616842239,0.06894174422612892
+Label Noise,10% Noise,LightGBM,42,Shifted Test,5,2281,0.5386259870955632,0.13634370889960543
+Label Noise,10% Noise,LightGBM,42,Shifted Test,6,523,0.6355577673100604,0.2198852772466539
+Label Noise,10% Noise,LightGBM,42,Shifted Test,7,70,0.7345038958958217,0.22857142857142856
+Label Noise,10% Noise,LightGBM,42,Shifted Test,8,17,0.838052535758299,0.5882352941176471
+Label Noise,10% Noise,LightGBM,42,Shifted Test,9,0,,
+Label Noise,10% Noise,LightGBM,43,In-domain Test,0,3,0.07692606250445048,0.0
+Label Noise,10% Noise,LightGBM,43,In-domain Test,1,22,0.15378213944760236,0.045454545454545456
+Label Noise,10% Noise,LightGBM,43,In-domain Test,2,172,0.2643475049110346,0.06395348837209303
+Label Noise,10% Noise,LightGBM,43,In-domain Test,3,1737,0.36706329026850876,0.0690846286701209
+Label Noise,10% Noise,LightGBM,43,In-domain Test,4,7026,0.45183825820743817,0.08411614005123826
+Label Noise,10% Noise,LightGBM,43,In-domain Test,5,4179,0.5374488488399517,0.14668581000239292
+Label Noise,10% Noise,LightGBM,43,In-domain Test,6,874,0.6388937246472121,0.2334096109839817
+Label Noise,10% Noise,LightGBM,43,In-domain Test,7,242,0.7381087130258891,0.4049586776859504
+Label Noise,10% Noise,LightGBM,43,In-domain Test,8,13,0.8130936439220722,0.5384615384615384
+Label Noise,10% Noise,LightGBM,43,In-domain Test,9,0,,
+Label Noise,10% Noise,LightGBM,43,Shifted Test,0,0,,
+Label Noise,10% Noise,LightGBM,43,Shifted Test,1,3,0.1717028667529424,0.0
+Label Noise,10% Noise,LightGBM,43,Shifted Test,2,56,0.26766905268388136,0.07142857142857142
+Label Noise,10% Noise,LightGBM,43,Shifted Test,3,652,0.3680413483750601,0.049079754601226995
+Label Noise,10% Noise,LightGBM,43,Shifted Test,4,3294,0.4535695469661706,0.0734669095324833
+Label Noise,10% Noise,LightGBM,43,Shifted Test,5,2310,0.5378303986607176,0.13766233766233765
+Label Noise,10% Noise,LightGBM,43,Shifted Test,6,382,0.635366799631668,0.20680628272251309
+Label Noise,10% Noise,LightGBM,43,Shifted Test,7,67,0.7460252019896436,0.29850746268656714
+Label Noise,10% Noise,LightGBM,43,Shifted Test,8,17,0.8211440373869503,0.6470588235294118
+Label Noise,10% Noise,LightGBM,43,Shifted Test,9,0,,
+Label Noise,10% Noise,LightGBM,44,In-domain Test,0,0,,
+Label Noise,10% Noise,LightGBM,44,In-domain Test,1,7,0.18236405295985086,0.0
+Label Noise,10% Noise,LightGBM,44,In-domain Test,2,214,0.26701487886292913,0.0514018691588785
+Label Noise,10% Noise,LightGBM,44,In-domain Test,3,1635,0.3685625783711763,0.05688073394495413
+Label Noise,10% Noise,LightGBM,44,In-domain Test,4,6843,0.4472841381477923,0.08402747333041063
+Label Noise,10% Noise,LightGBM,44,In-domain Test,5,4285,0.5409216365569391,0.14399066511085182
+Label Noise,10% Noise,LightGBM,44,In-domain Test,6,1022,0.6389202727496974,0.25244618395303325
+Label Noise,10% Noise,LightGBM,44,In-domain Test,7,240,0.7306962524851163,0.3875
+Label Noise,10% Noise,LightGBM,44,In-domain Test,8,14,0.8241380964006696,0.42857142857142855
+Label Noise,10% Noise,LightGBM,44,In-domain Test,9,0,,
+Label Noise,10% Noise,LightGBM,44,Shifted Test,0,0,,
+Label Noise,10% Noise,LightGBM,44,Shifted Test,1,16,0.17071342980489135,0.0
+Label Noise,10% Noise,LightGBM,44,Shifted Test,2,231,0.2703043298545854,0.03896103896103896
+Label Noise,10% Noise,LightGBM,44,Shifted Test,3,949,0.3562282478344579,0.05690200210748156
+Label Noise,10% Noise,LightGBM,44,Shifted Test,4,1429,0.4540126738304688,0.06997900629811056
+Label Noise,10% Noise,LightGBM,44,Shifted Test,5,2075,0.551024523413325,0.10698795180722892
+Label Noise,10% Noise,LightGBM,44,Shifted Test,6,1755,0.6397171113565776,0.1361823361823362
+Label Noise,10% Noise,LightGBM,44,Shifted Test,7,287,0.7360218316835809,0.2264808362369338
+Label Noise,10% Noise,LightGBM,44,Shifted Test,8,37,0.8347555624472128,0.40540540540540543
+Label Noise,10% Noise,LightGBM,44,Shifted Test,9,2,0.9108864068984985,1.0
+Label Noise,10% Noise,Logistic Regression,42,In-domain Test,0,13,0.08397566412503903,0.0
+Label Noise,10% Noise,Logistic Regression,42,In-domain Test,1,113,0.1610647966772054,0.04424778761061947
+Label Noise,10% Noise,Logistic Regression,42,In-domain Test,2,466,0.25864779191339476,0.055793991416309016
+Label Noise,10% Noise,Logistic Regression,42,In-domain Test,3,1937,0.36261214956710436,0.0743417656169334
+Label Noise,10% Noise,Logistic Regression,42,In-domain Test,4,5938,0.45293199898579095,0.09262377905018525
+Label Noise,10% Noise,Logistic Regression,42,In-domain Test,5,4032,0.5420648104969471,0.12896825396825398
+Label Noise,10% Noise,Logistic Regression,42,In-domain Test,6,1303,0.6401248259079612,0.18956254796623176
+Label Noise,10% Noise,Logistic Regression,42,In-domain Test,7,319,0.7368218646527831,0.26332288401253917
+Label Noise,10% Noise,Logistic Regression,42,In-domain Test,8,65,0.8413399861409114,0.4
+Label Noise,10% Noise,Logistic Regression,42,In-domain Test,9,6,0.9298302431901296,0.6666666666666666
+Label Noise,10% Noise,Logistic Regression,42,Shifted Test,0,1,0.09095991402864456,0.0
+Label Noise,10% Noise,Logistic Regression,42,Shifted Test,1,41,0.17075475923171857,0.12195121951219512
+Label Noise,10% Noise,Logistic Regression,42,Shifted Test,2,173,0.25880932919896404,0.09248554913294797
+Label Noise,10% Noise,Logistic Regression,42,Shifted Test,3,843,0.36348051967569944,0.06761565836298933
+Label Noise,10% Noise,Logistic Regression,42,Shifted Test,4,2820,0.45456306152309933,0.07375886524822695
+Label Noise,10% Noise,Logistic Regression,42,Shifted Test,5,2135,0.5418557715639297,0.12084309133489461
+Label Noise,10% Noise,Logistic Regression,42,Shifted Test,6,601,0.6378357166458485,0.18801996672212978
+Label Noise,10% Noise,Logistic Regression,42,Shifted Test,7,142,0.7357377200059487,0.24647887323943662
+Label Noise,10% Noise,Logistic Regression,42,Shifted Test,8,14,0.84321842449052,0.42857142857142855
+Label Noise,10% Noise,Logistic Regression,42,Shifted Test,9,11,0.9335617639801719,0.7272727272727273
+Label Noise,10% Noise,Logistic Regression,43,In-domain Test,0,16,0.07912138197571039,0.0
+Label Noise,10% Noise,Logistic Regression,43,In-domain Test,1,156,0.161566477173414,0.10256410256410256
+Label Noise,10% Noise,Logistic Regression,43,In-domain Test,2,482,0.2593345678569865,0.08506224066390042
+Label Noise,10% Noise,Logistic Regression,43,In-domain Test,3,1935,0.3639972876362714,0.06873385012919897
+Label Noise,10% Noise,Logistic Regression,43,In-domain Test,4,5807,0.453414933435556,0.09178577578784226
+Label Noise,10% Noise,Logistic Regression,43,In-domain Test,5,4130,0.542302385917876,0.1368038740920097
+Label Noise,10% Noise,Logistic Regression,43,In-domain Test,6,1321,0.6400775982519608,0.17032551097653292
+Label Noise,10% Noise,Logistic Regression,43,In-domain Test,7,334,0.7378275592526989,0.281437125748503
+Label Noise,10% Noise,Logistic Regression,43,In-domain Test,8,72,0.8410764452483919,0.4305555555555556
+Label Noise,10% Noise,Logistic Regression,43,In-domain Test,9,15,0.928057316939036,0.4666666666666667
+Label Noise,10% Noise,Logistic Regression,43,Shifted Test,0,6,0.07398578400413196,0.0
+Label Noise,10% Noise,Logistic Regression,43,Shifted Test,1,52,0.16053865721019414,0.1346153846153846
+Label Noise,10% Noise,Logistic Regression,43,Shifted Test,2,191,0.2619867490224189,0.1099476439790576
+Label Noise,10% Noise,Logistic Regression,43,Shifted Test,3,760,0.36148228739437305,0.05394736842105263
+Label Noise,10% Noise,Logistic Regression,43,Shifted Test,4,2661,0.4552721458129173,0.07666290868094701
+Label Noise,10% Noise,Logistic Regression,43,Shifted Test,5,2237,0.5423285067747574,0.11578006258381761
+Label Noise,10% Noise,Logistic Regression,43,Shifted Test,6,672,0.6380023104803902,0.18303571428571427
+Label Noise,10% Noise,Logistic Regression,43,Shifted Test,7,164,0.7404829983304186,0.22560975609756098
+Label Noise,10% Noise,Logistic Regression,43,Shifted Test,8,28,0.8357503137418202,0.2857142857142857
+Label Noise,10% Noise,Logistic Regression,43,Shifted Test,9,10,0.9413862109184266,0.6
+Label Noise,10% Noise,Logistic Regression,44,In-domain Test,0,22,0.0859396042810245,0.0
+Label Noise,10% Noise,Logistic Regression,44,In-domain Test,1,143,0.16293087221317357,0.04895104895104895
+Label Noise,10% Noise,Logistic Regression,44,In-domain Test,2,460,0.2594390283784141,0.08695652173913043
+Label Noise,10% Noise,Logistic Regression,44,In-domain Test,3,1954,0.36381066812463525,0.07471852610030706
+Label Noise,10% Noise,Logistic Regression,44,In-domain Test,4,5761,0.45263573931356493,0.09269224093039403
+Label Noise,10% Noise,Logistic Regression,44,In-domain Test,5,4044,0.5435166732434821,0.13303659742828883
+Label Noise,10% Noise,Logistic Regression,44,In-domain Test,6,1401,0.6400148598829565,0.1734475374732334
+Label Noise,10% Noise,Logistic Regression,44,In-domain Test,7,373,0.7360415404347888,0.27882037533512066
+Label Noise,10% Noise,Logistic Regression,44,In-domain Test,8,87,0.8386785024884104,0.40229885057471265
+Label Noise,10% Noise,Logistic Regression,44,In-domain Test,9,15,0.9281859914461772,0.4
+Label Noise,10% Noise,Logistic Regression,44,Shifted Test,0,1,0.08268580585718155,0.0
+Label Noise,10% Noise,Logistic Regression,44,Shifted Test,1,47,0.16221329839305676,0.06382978723404255
+Label Noise,10% Noise,Logistic Regression,44,Shifted Test,2,156,0.259395649513373,0.07051282051282051
+Label Noise,10% Noise,Logistic Regression,44,Shifted Test,3,589,0.3630389404215918,0.06960950764006792
+Label Noise,10% Noise,Logistic Regression,44,Shifted Test,4,2348,0.45772321889053214,0.06856899488926746
+Label Noise,10% Noise,Logistic Regression,44,Shifted Test,5,2451,0.5443173576403229,0.10403916768665851
+Label Noise,10% Noise,Logistic Regression,44,Shifted Test,6,924,0.6395499392763361,0.17424242424242425
+Label Noise,10% Noise,Logistic Regression,44,Shifted Test,7,218,0.7394898823641856,0.25229357798165136
+Label Noise,10% Noise,Logistic Regression,44,Shifted Test,8,33,0.8346696098645529,0.24242424242424243
+Label Noise,10% Noise,Logistic Regression,44,Shifted Test,9,14,0.9282857094492231,0.7857142857142857
+Label Noise,20% Noise,LightGBM,42,In-domain Test,0,0,,
+Label Noise,20% Noise,LightGBM,42,In-domain Test,1,1,0.1832267791032791,0.0
+Label Noise,20% Noise,LightGBM,42,In-domain Test,2,51,0.2718215418212554,0.058823529411764705
+Label Noise,20% Noise,LightGBM,42,In-domain Test,3,617,0.3696581964747832,0.06645056726094004
+Label Noise,20% Noise,LightGBM,42,In-domain Test,4,7794,0.4643172408055733,0.07890685142417245
+Label Noise,20% Noise,LightGBM,42,In-domain Test,5,5167,0.5321691139468331,0.14902264370040644
+Label Noise,20% Noise,LightGBM,42,In-domain Test,6,512,0.635243613505736,0.314453125
+Label Noise,20% Noise,LightGBM,42,In-domain Test,7,50,0.7234371244907379,0.32
+Label Noise,20% Noise,LightGBM,42,In-domain Test,8,0,,
+Label Noise,20% Noise,LightGBM,42,In-domain Test,9,0,,
+Label Noise,20% Noise,LightGBM,42,Shifted Test,0,0,,
+Label Noise,20% Noise,LightGBM,42,Shifted Test,1,0,,
+Label Noise,20% Noise,LightGBM,42,Shifted Test,2,29,0.273983604435263,0.10344827586206896
+Label Noise,20% Noise,LightGBM,42,Shifted Test,3,320,0.36492456113919614,0.05625
+Label Noise,20% Noise,LightGBM,42,Shifted Test,4,3241,0.4624086915343237,0.07004011107682814
+Label Noise,20% Noise,LightGBM,42,Shifted Test,5,2926,0.5355965514258009,0.13260423786739575
+Label Noise,20% Noise,LightGBM,42,Shifted Test,6,234,0.6300367099097651,0.23076923076923078
+Label Noise,20% Noise,LightGBM,42,Shifted Test,7,31,0.727053992209896,0.5161290322580645
+Label Noise,20% Noise,LightGBM,42,Shifted Test,8,0,,
+Label Noise,20% Noise,LightGBM,42,Shifted Test,9,0,,
+Label Noise,20% Noise,LightGBM,43,In-domain Test,0,0,,
+Label Noise,20% Noise,LightGBM,43,In-domain Test,1,8,0.16499442793428898,0.0
+Label Noise,20% Noise,LightGBM,43,In-domain Test,2,43,0.2731790816368059,0.06976744186046512
+Label Noise,20% Noise,LightGBM,43,In-domain Test,3,620,0.36830233700813786,0.08548387096774193
+Label Noise,20% Noise,LightGBM,43,In-domain Test,4,8159,0.4658153215113889,0.08542713567839195
+Label Noise,20% Noise,LightGBM,43,In-domain Test,5,4840,0.5321722489127443,0.1464876033057851
+Label Noise,20% Noise,LightGBM,43,In-domain Test,6,554,0.637352160275628,0.30324909747292417
+Label Noise,20% Noise,LightGBM,43,In-domain Test,7,44,0.727897584438324,0.3409090909090909
+Label Noise,20% Noise,LightGBM,43,In-domain Test,8,0,,
+Label Noise,20% Noise,LightGBM,43,In-domain Test,9,0,,
+Label Noise,20% Noise,LightGBM,43,Shifted Test,0,0,,
+Label Noise,20% Noise,LightGBM,43,Shifted Test,1,4,0.14716478809714317,0.0
+Label Noise,20% Noise,LightGBM,43,Shifted Test,2,19,0.282437873514075,0.0
+Label Noise,20% Noise,LightGBM,43,Shifted Test,3,431,0.36953947687923494,0.06960556844547564
+Label Noise,20% Noise,LightGBM,43,Shifted Test,4,3613,0.4579919200837035,0.07805148076390811
+Label Noise,20% Noise,LightGBM,43,Shifted Test,5,2382,0.5363654110683902,0.1288832913518052
+Label Noise,20% Noise,LightGBM,43,Shifted Test,6,292,0.6293826744164506,0.23972602739726026
+Label Noise,20% Noise,LightGBM,43,Shifted Test,7,40,0.7295812755823136,0.425
+Label Noise,20% Noise,LightGBM,43,Shifted Test,8,0,,
+Label Noise,20% Noise,LightGBM,43,Shifted Test,9,0,,
+Label Noise,20% Noise,LightGBM,44,In-domain Test,0,0,,
+Label Noise,20% Noise,LightGBM,44,In-domain Test,1,4,0.18253174424171448,0.25
+Label Noise,20% Noise,LightGBM,44,In-domain Test,2,60,0.269181356827418,0.05
+Label Noise,20% Noise,LightGBM,44,In-domain Test,3,611,0.3677881029350668,0.07201309328968904
+Label Noise,20% Noise,LightGBM,44,In-domain Test,4,7772,0.46240921800153745,0.08131755018013381
+Label Noise,20% Noise,LightGBM,44,In-domain Test,5,5116,0.5338659181876328,0.14874902267396403
+Label Noise,20% Noise,LightGBM,44,In-domain Test,6,637,0.6345438028055608,0.29984301412872844
+Label Noise,20% Noise,LightGBM,44,In-domain Test,7,59,0.7266314514612747,0.3389830508474576
+Label Noise,20% Noise,LightGBM,44,In-domain Test,8,1,0.8277978301048279,1.0
+Label Noise,20% Noise,LightGBM,44,In-domain Test,9,0,,
+Label Noise,20% Noise,LightGBM,44,Shifted Test,0,0,,
+Label Noise,20% Noise,LightGBM,44,Shifted Test,1,7,0.17043778726032802,0.0
+Label Noise,20% Noise,LightGBM,44,Shifted Test,2,9,0.2740896890560786,0.0
+Label Noise,20% Noise,LightGBM,44,Shifted Test,3,82,0.37017292656549594,0.036585365853658534
+Label Noise,20% Noise,LightGBM,44,Shifted Test,4,1257,0.46551801357936934,0.057279236276849645
+Label Noise,20% Noise,LightGBM,44,Shifted Test,5,2645,0.5578609814490623,0.10094517958412098
+Label Noise,20% Noise,LightGBM,44,Shifted Test,6,2528,0.6386473435861401,0.12262658227848101
+Label Noise,20% Noise,LightGBM,44,Shifted Test,7,237,0.7265902372855174,0.17721518987341772
+Label Noise,20% Noise,LightGBM,44,Shifted Test,8,16,0.8414564654231071,0.75
+Label Noise,20% Noise,LightGBM,44,Shifted Test,9,0,,
+Label Noise,20% Noise,Logistic Regression,42,In-domain Test,0,2,0.08865725249052048,0.0
+Label Noise,20% Noise,Logistic Regression,42,In-domain Test,1,62,0.16819673740575392,0.0
+Label Noise,20% Noise,Logistic Regression,42,In-domain Test,2,275,0.2616052168607712,0.08
+Label Noise,20% Noise,Logistic Regression,42,In-domain Test,3,1020,0.364499029341866,0.07745098039215687
+Label Noise,20% Noise,Logistic Regression,42,In-domain Test,4,6688,0.459667206167034,0.08851674641148326
+Label Noise,20% Noise,Logistic Regression,42,In-domain Test,5,4957,0.5384972876590516,0.13576760137179747
+Label Noise,20% Noise,Logistic Regression,42,In-domain Test,6,1036,0.6369142859713911,0.18629343629343628
+Label Noise,20% Noise,Logistic Regression,42,In-domain Test,7,140,0.7396090958799635,0.29285714285714287
+Label Noise,20% Noise,Logistic Regression,42,In-domain Test,8,11,0.8298105760054155,0.5454545454545454
+Label Noise,20% Noise,Logistic Regression,42,In-domain Test,9,1,0.913663387298584,0.0
+Label Noise,20% Noise,Logistic Regression,42,Shifted Test,0,0,,
+Label Noise,20% Noise,Logistic Regression,42,Shifted Test,1,9,0.1729116067290306,0.2222222222222222
+Label Noise,20% Noise,Logistic Regression,42,Shifted Test,2,88,0.25852369178425183,0.06818181818181818
+Label Noise,20% Noise,Logistic Regression,42,Shifted Test,3,382,0.36487427322652327,0.07591623036649214
+Label Noise,20% Noise,Logistic Regression,42,Shifted Test,4,2933,0.46285393719294354,0.07534947153085578
+Label Noise,20% Noise,Logistic Regression,42,Shifted Test,5,2787,0.5385195685622082,0.11697165410836025
+Label Noise,20% Noise,Logistic Regression,42,Shifted Test,6,505,0.6383278333314575,0.19207920792079208
+Label Noise,20% Noise,Logistic Regression,42,Shifted Test,7,64,0.7304413001984358,0.265625
+Label Noise,20% Noise,Logistic Regression,42,Shifted Test,8,12,0.8342877626419067,0.6666666666666666
+Label Noise,20% Noise,Logistic Regression,42,Shifted Test,9,1,0.9041376709938049,0.0
+Label Noise,20% Noise,Logistic Regression,43,In-domain Test,0,1,0.08203636854887009,0.0
+Label Noise,20% Noise,Logistic Regression,43,In-domain Test,1,38,0.16825275142726145,0.02631578947368421
+Label Noise,20% Noise,Logistic Regression,43,In-domain Test,2,243,0.26176913965631415,0.11934156378600823
+Label Noise,20% Noise,Logistic Regression,43,In-domain Test,3,1062,0.36516615498649646,0.08192090395480225
+Label Noise,20% Noise,Logistic Regression,43,In-domain Test,4,6637,0.4594438134887518,0.0926623474461353
+Label Noise,20% Noise,Logistic Regression,43,In-domain Test,5,5133,0.5387977445634188,0.1315020455873758
+Label Noise,20% Noise,Logistic Regression,43,In-domain Test,6,969,0.6356129950168086,0.19195046439628483
+Label Noise,20% Noise,Logistic Regression,43,In-domain Test,7,161,0.736469200679234,0.2795031055900621
+Label Noise,20% Noise,Logistic Regression,43,In-domain Test,8,23,0.8375230612962142,0.30434782608695654
+Label Noise,20% Noise,Logistic Regression,43,In-domain Test,9,1,0.920745849609375,0.0
+Label Noise,20% Noise,Logistic Regression,43,Shifted Test,0,0,,
+Label Noise,20% Noise,Logistic Regression,43,Shifted Test,1,10,0.1619381584227085,0.0
+Label Noise,20% Noise,Logistic Regression,43,Shifted Test,2,88,0.2598387106237086,0.07954545454545454
+Label Noise,20% Noise,Logistic Regression,43,Shifted Test,3,365,0.36454685020120176,0.0821917808219178
+Label Noise,20% Noise,Logistic Regression,43,Shifted Test,4,2553,0.46425130892117444,0.0791226008617313
+Label Noise,20% Noise,Logistic Regression,43,Shifted Test,5,3074,0.5401505806380925,0.10540013012361743
+Label Noise,20% Noise,Logistic Regression,43,Shifted Test,6,573,0.6339137047581231,0.19197207678883071
+Label Noise,20% Noise,Logistic Regression,43,Shifted Test,7,99,0.7381260611794211,0.24242424242424243
+Label Noise,20% Noise,Logistic Regression,43,Shifted Test,8,19,0.845734527236537,0.47368421052631576
+Label Noise,20% Noise,Logistic Regression,43,Shifted Test,9,0,,
+Label Noise,20% Noise,Logistic Regression,44,In-domain Test,0,3,0.09118587772051494,0.3333333333333333
+Label Noise,20% Noise,Logistic Regression,44,In-domain Test,1,56,0.1668037220037409,0.10714285714285714
+Label Noise,20% Noise,Logistic Regression,44,In-domain Test,2,220,0.25683758746493945,0.06363636363636363
+Label Noise,20% Noise,Logistic Regression,44,In-domain Test,3,1187,0.3655149445577941,0.08424599831508003
+Label Noise,20% Noise,Logistic Regression,44,In-domain Test,4,6513,0.45818647109435373,0.09273760171963764
+Label Noise,20% Noise,Logistic Regression,44,In-domain Test,5,4873,0.5399746272858961,0.129283808742048
+Label Noise,20% Noise,Logistic Regression,44,In-domain Test,6,1186,0.6364705171593125,0.19308600337268128
+Label Noise,20% Noise,Logistic Regression,44,In-domain Test,7,199,0.7355940497700294,0.2864321608040201
+Label Noise,20% Noise,Logistic Regression,44,In-domain Test,8,20,0.8326842933893204,0.6
+Label Noise,20% Noise,Logistic Regression,44,In-domain Test,9,3,0.9345123569170634,0.0
+Label Noise,20% Noise,Logistic Regression,44,Shifted Test,0,0,,
+Label Noise,20% Noise,Logistic Regression,44,Shifted Test,1,24,0.16639669643094143,0.041666666666666664
+Label Noise,20% Noise,Logistic Regression,44,Shifted Test,2,56,0.25322668813169,0.05357142857142857
+Label Noise,20% Noise,Logistic Regression,44,Shifted Test,3,262,0.3609908327801537,0.06870229007633588
+Label Noise,20% Noise,Logistic Regression,44,Shifted Test,4,1969,0.4649502622893524,0.07618080243778567
+Label Noise,20% Noise,Logistic Regression,44,Shifted Test,5,3344,0.5437590349376487,0.09808612440191387
+Label Noise,20% Noise,Logistic Regression,44,Shifted Test,6,967,0.6364086637082736,0.17580144777662876
+Label Noise,20% Noise,Logistic Regression,44,Shifted Test,7,136,0.7322154509670594,0.17647058823529413
+Label Noise,20% Noise,Logistic Regression,44,Shifted Test,8,23,0.8366874145424884,0.5217391304347826
+Label Noise,20% Noise,Logistic Regression,44,Shifted Test,9,0,,
+Label Noise,5% Noise,LightGBM,42,In-domain Test,0,1,0.09621964395046234,0.0
+Label Noise,5% Noise,LightGBM,42,In-domain Test,1,60,0.17343055432041485,0.016666666666666666
+Label Noise,5% Noise,LightGBM,42,In-domain Test,2,626,0.26352475607357084,0.036741214057507986
+Label Noise,5% Noise,LightGBM,42,In-domain Test,3,2935,0.3614414711928652,0.0565587734241908
+Label Noise,5% Noise,LightGBM,42,In-domain Test,4,5461,0.4484916846354002,0.08716352316425563
+Label Noise,5% Noise,LightGBM,42,In-domain Test,5,3632,0.5440255720250406,0.14785242290748898
+Label Noise,5% Noise,LightGBM,42,In-domain Test,6,1123,0.6419157387418398,0.23864648263579696
+Label Noise,5% Noise,LightGBM,42,In-domain Test,7,301,0.7405076391277123,0.3754152823920266
+Label Noise,5% Noise,LightGBM,42,In-domain Test,8,53,0.8257685506118918,0.41509433962264153
+Label Noise,5% Noise,LightGBM,42,In-domain Test,9,0,,
+Label Noise,5% Noise,LightGBM,42,Shifted Test,0,0,,
+Label Noise,5% Noise,LightGBM,42,Shifted Test,1,41,0.1688687981265347,0.024390243902439025
+Label Noise,5% Noise,LightGBM,42,Shifted Test,2,308,0.26418839395046234,0.02922077922077922
+Label Noise,5% Noise,LightGBM,42,Shifted Test,3,1123,0.36097842964442417,0.06411398040961709
+Label Noise,5% Noise,LightGBM,42,Shifted Test,4,2618,0.45175383821118414,0.08288770053475936
+Label Noise,5% Noise,LightGBM,42,Shifted Test,5,1937,0.5420882475086876,0.11925658234383067
+Label Noise,5% Noise,LightGBM,42,Shifted Test,6,590,0.6379386473510225,0.2016949152542373
+Label Noise,5% Noise,LightGBM,42,Shifted Test,7,134,0.7391174831497136,0.3208955223880597
+Label Noise,5% Noise,LightGBM,42,Shifted Test,8,27,0.8441377105536284,0.4074074074074074
+Label Noise,5% Noise,LightGBM,42,Shifted Test,9,3,0.9071371157964071,1.0
+Label Noise,5% Noise,LightGBM,43,In-domain Test,0,3,0.08803673336903255,0.0
+Label Noise,5% Noise,LightGBM,43,In-domain Test,1,82,0.16280580748145174,0.012195121951219513
+Label Noise,5% Noise,LightGBM,43,In-domain Test,2,597,0.26608010357748124,0.048576214405360134
+Label Noise,5% Noise,LightGBM,43,In-domain Test,3,3121,0.3613706154057094,0.06280038449214995
+Label Noise,5% Noise,LightGBM,43,In-domain Test,4,5399,0.4508255932988624,0.0948323763659937
+Label Noise,5% Noise,LightGBM,43,In-domain Test,5,3408,0.5401521525017812,0.14642018779342722
+Label Noise,5% Noise,LightGBM,43,In-domain Test,6,1235,0.6386464119922777,0.20728744939271254
+Label Noise,5% Noise,LightGBM,43,In-domain Test,7,366,0.7415507442312814,0.3524590163934426
+Label Noise,5% Noise,LightGBM,43,In-domain Test,8,57,0.822934561654141,0.40350877192982454
+Label Noise,5% Noise,LightGBM,43,In-domain Test,9,0,,
+Label Noise,5% Noise,LightGBM,43,Shifted Test,0,0,,
+Label Noise,5% Noise,LightGBM,43,Shifted Test,1,15,0.16749044607083002,0.0
+Label Noise,5% Noise,LightGBM,43,Shifted Test,2,258,0.2664762749805931,0.05426356589147287
+Label Noise,5% Noise,LightGBM,43,Shifted Test,3,1432,0.3609800144988398,0.055167597765363126
+Label Noise,5% Noise,LightGBM,43,Shifted Test,4,2717,0.45221252531570066,0.08023555391976445
+Label Noise,5% Noise,LightGBM,43,Shifted Test,5,1634,0.5396857089482732,0.13892288861689106
+Label Noise,5% Noise,LightGBM,43,Shifted Test,6,593,0.6373580193640209,0.21079258010118043
+Label Noise,5% Noise,LightGBM,43,Shifted Test,7,99,0.7467735602398111,0.26262626262626265
+Label Noise,5% Noise,LightGBM,43,Shifted Test,8,33,0.8285110556718075,0.5151515151515151
+Label Noise,5% Noise,LightGBM,43,Shifted Test,9,0,,
+Label Noise,5% Noise,LightGBM,44,In-domain Test,0,1,0.08738662302494049,0.0
+Label Noise,5% Noise,LightGBM,44,In-domain Test,1,61,0.17193015909097234,0.0
+Label Noise,5% Noise,LightGBM,44,In-domain Test,2,622,0.26380768887866346,0.04180064308681672
+Label Noise,5% Noise,LightGBM,44,In-domain Test,3,3424,0.3632654914562808,0.05987149532710281
+Label Noise,5% Noise,LightGBM,44,In-domain Test,4,4724,0.4476406063685772,0.09208298052497883
+Label Noise,5% Noise,LightGBM,44,In-domain Test,5,3596,0.5458839489799718,0.14627363737486096
+Label Noise,5% Noise,LightGBM,44,In-domain Test,6,1386,0.6365000439584685,0.22438672438672438
+Label Noise,5% Noise,LightGBM,44,In-domain Test,7,400,0.7388766542077064,0.31
+Label Noise,5% Noise,LightGBM,44,In-domain Test,8,45,0.8222536047299703,0.5777777777777777
+Label Noise,5% Noise,LightGBM,44,In-domain Test,9,1,0.9066434502601624,0.0
+Label Noise,5% Noise,LightGBM,44,Shifted Test,0,0,,
+Label Noise,5% Noise,LightGBM,44,Shifted Test,1,29,0.16787852680888668,0.034482758620689655
+Label Noise,5% Noise,LightGBM,44,Shifted Test,2,317,0.2666253970718534,0.031545741324921134
+Label Noise,5% Noise,LightGBM,44,Shifted Test,3,1514,0.3620633750248459,0.05548216644649934
+Label Noise,5% Noise,LightGBM,44,Shifted Test,4,2242,0.44877428621931015,0.09009812667261374
+Label Noise,5% Noise,LightGBM,44,Shifted Test,5,1835,0.5434045565550594,0.1226158038147139
+Label Noise,5% Noise,LightGBM,44,Shifted Test,6,685,0.6385506174860209,0.19708029197080293
+Label Noise,5% Noise,LightGBM,44,Shifted Test,7,127,0.7377914626767316,0.25196850393700787
+Label Noise,5% Noise,LightGBM,44,Shifted Test,8,31,0.8460713759545357,0.5161290322580645
+Label Noise,5% Noise,LightGBM,44,Shifted Test,9,1,0.9070907235145569,1.0
+Label Noise,5% Noise,Logistic Regression,42,In-domain Test,0,41,0.06980012852425982,0.024390243902439025
+Label Noise,5% Noise,Logistic Regression,42,In-domain Test,1,255,0.15934011135615556,0.047058823529411764
+Label Noise,5% Noise,Logistic Regression,42,In-domain Test,2,747,0.2585729396885817,0.06291834002677377
+Label Noise,5% Noise,Logistic Regression,42,In-domain Test,3,2631,0.3597837953185093,0.072595971113645
+Label Noise,5% Noise,Logistic Regression,42,In-domain Test,4,5086,0.450138495661497,0.09221392056626032
+Label Noise,5% Noise,Logistic Regression,42,In-domain Test,5,3411,0.5434917438872502,0.13427147464086778
+Label Noise,5% Noise,Logistic Regression,42,In-domain Test,6,1389,0.6412680307423322,0.1742260619150468
+Label Noise,5% Noise,Logistic Regression,42,In-domain Test,7,477,0.7401765826113319,0.25366876310272535
+Label Noise,5% Noise,Logistic Regression,42,In-domain Test,8,126,0.8350608225852724,0.40476190476190477
+Label Noise,5% Noise,Logistic Regression,42,In-domain Test,9,29,0.930418429703548,0.4827586206896552
+Label Noise,5% Noise,Logistic Regression,42,Shifted Test,0,11,0.07929337261752649,0.0
+Label Noise,5% Noise,Logistic Regression,42,Shifted Test,1,116,0.16520160834850936,0.07758620689655173
+Label Noise,5% Noise,Logistic Regression,42,Shifted Test,2,381,0.2601663204706873,0.07611548556430446
+Label Noise,5% Noise,Logistic Regression,42,Shifted Test,3,1281,0.3599854897792036,0.06791569086651054
+Label Noise,5% Noise,Logistic Regression,42,Shifted Test,4,2474,0.45054185027881505,0.082053354890865
+Label Noise,5% Noise,Logistic Regression,42,Shifted Test,5,1647,0.5437418434861652,0.12021857923497267
+Label Noise,5% Noise,Logistic Regression,42,Shifted Test,6,641,0.6380431160168045,0.18408736349453977
+Label Noise,5% Noise,Logistic Regression,42,Shifted Test,7,168,0.7388688130747705,0.23214285714285715
+Label Noise,5% Noise,Logistic Regression,42,Shifted Test,8,47,0.8328476966695583,0.2765957446808511
+Label Noise,5% Noise,Logistic Regression,42,Shifted Test,9,15,0.9528348008791606,0.6666666666666666
+Label Noise,5% Noise,Logistic Regression,43,In-domain Test,0,64,0.07670496529317461,0.015625
+Label Noise,5% Noise,Logistic Regression,43,In-domain Test,1,279,0.16151029854265164,0.08243727598566308
+Label Noise,5% Noise,Logistic Regression,43,In-domain Test,2,762,0.26021237248980156,0.06692913385826772
+Label Noise,5% Noise,Logistic Regression,43,In-domain Test,3,2723,0.3588894274013252,0.07528461255967683
+Label Noise,5% Noise,Logistic Regression,43,In-domain Test,4,4837,0.4509037825621084,0.09510026876162911
+Label Noise,5% Noise,Logistic Regression,43,In-domain Test,5,3494,0.5441775487604725,0.136519748139668
+Label Noise,5% Noise,Logistic Regression,43,In-domain Test,6,1472,0.6415411838046883,0.17459239130434784
+Label Noise,5% Noise,Logistic Regression,43,In-domain Test,7,470,0.7389146291195078,0.23191489361702128
+Label Noise,5% Noise,Logistic Regression,43,In-domain Test,8,136,0.8371219429023126,0.33088235294117646
+Label Noise,5% Noise,Logistic Regression,43,In-domain Test,9,31,0.9371292321912704,0.5483870967741935
+Label Noise,5% Noise,Logistic Regression,43,Shifted Test,0,19,0.07217210952780749,0.05263157894736842
+Label Noise,5% Noise,Logistic Regression,43,Shifted Test,1,118,0.16453766412401605,0.09322033898305085
+Label Noise,5% Noise,Logistic Regression,43,Shifted Test,2,400,0.2609238822385669,0.0825
+Label Noise,5% Noise,Logistic Regression,43,Shifted Test,3,1441,0.359642400293198,0.06384455239417071
+Label Noise,5% Noise,Logistic Regression,43,Shifted Test,4,2348,0.45020242398398497,0.07708688245315162
+Label Noise,5% Noise,Logistic Regression,43,Shifted Test,5,1609,0.5441826218548141,0.13610938471100062
+Label Noise,5% Noise,Logistic Regression,43,Shifted Test,6,599,0.6410239041349127,0.17362270450751252
+Label Noise,5% Noise,Logistic Regression,43,Shifted Test,7,182,0.7441947535499112,0.23076923076923078
+Label Noise,5% Noise,Logistic Regression,43,Shifted Test,8,49,0.8360093637388579,0.22448979591836735
+Label Noise,5% Noise,Logistic Regression,43,Shifted Test,9,16,0.9471412301063538,0.75
+Label Noise,5% Noise,Logistic Regression,44,In-domain Test,0,57,0.0738481703753534,0.05263157894736842
+Label Noise,5% Noise,Logistic Regression,44,In-domain Test,1,256,0.1569812804227695,0.07421875
+Label Noise,5% Noise,Logistic Regression,44,In-domain Test,2,793,0.2601154755523797,0.07061790668348046
+Label Noise,5% Noise,Logistic Regression,44,In-domain Test,3,2794,0.35995869680908466,0.07766642806012884
+Label Noise,5% Noise,Logistic Regression,44,In-domain Test,4,4669,0.449660376783458,0.09530948811308632
+Label Noise,5% Noise,Logistic Regression,44,In-domain Test,5,3398,0.5450420378761617,0.1312536786344909
+Label Noise,5% Noise,Logistic Regression,44,In-domain Test,6,1561,0.6421180179224497,0.16591928251121077
+Label Noise,5% Noise,Logistic Regression,44,In-domain Test,7,520,0.7393841556631602,0.22692307692307692
+Label Noise,5% Noise,Logistic Regression,44,In-domain Test,8,166,0.8403096888438765,0.3795180722891566
+Label Noise,5% Noise,Logistic Regression,44,In-domain Test,9,46,0.9381182556566985,0.5869565217391305
+Label Noise,5% Noise,Logistic Regression,44,Shifted Test,0,12,0.08437951281666756,0.0
+Label Noise,5% Noise,Logistic Regression,44,Shifted Test,1,84,0.1581683573091314,0.10714285714285714
+Label Noise,5% Noise,Logistic Regression,44,Shifted Test,2,255,0.2565890827599694,0.06274509803921569
+Label Noise,5% Noise,Logistic Regression,44,Shifted Test,3,1072,0.358661732261083,0.05690298507462686
+Label Noise,5% Noise,Logistic Regression,44,Shifted Test,4,2245,0.45135882757023343,0.07126948775055679
+Label Noise,5% Noise,Logistic Regression,44,Shifted Test,5,1883,0.5461253763448034,0.12055231014338821
+Label Noise,5% Noise,Logistic Regression,44,Shifted Test,6,864,0.6423367929679377,0.16203703703703703
+Label Noise,5% Noise,Logistic Regression,44,Shifted Test,7,278,0.740215384274078,0.2158273381294964
+Label Noise,5% Noise,Logistic Regression,44,Shifted Test,8,70,0.8342990389892033,0.2857142857142857
+Label Noise,5% Noise,Logistic Regression,44,Shifted Test,9,18,0.9521071480380164,0.7222222222222222

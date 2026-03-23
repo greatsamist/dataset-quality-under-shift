@@ -1,0 +1,145 @@
+Experiment,Condition,Noise Rate,Missingness Type,Missing Rate,Feature Group Blanked,Model,Random Seed,Test Set,AUROC,AUPRC,Brier Score
+Baseline,None,0.0,None,0.0,None,Logistic Regression,42,In-domain Test,0.8693447747491854,0.8004437915828129,0.14247108248557488
+Baseline,None,0.0,None,0.0,None,Logistic Regression,42,Shifted Test,0.87883855111671,0.8155578060823344,0.13671848546428755
+Baseline,None,0.0,None,0.0,None,LightGBM,42,In-domain Test,0.9037755895787816,0.8617991706899544,0.12368060562372353
+Baseline,None,0.0,None,0.0,None,LightGBM,42,Shifted Test,0.9108133158183968,0.8752271376527724,0.11935925807640588
+Label Noise,0% Noise,0.0,None,0.0,None,Logistic Regression,42,In-domain Test,0.8693447747491854,0.8004437915828129,0.14247108248557488
+Label Noise,0% Noise,0.0,None,0.0,None,Logistic Regression,42,Shifted Test,0.87883855111671,0.8155578060823344,0.13671848546428755
+Label Noise,0% Noise,0.0,None,0.0,None,LightGBM,42,In-domain Test,0.9037755895787816,0.8617991706899544,0.12368060562372353
+Label Noise,0% Noise,0.0,None,0.0,None,LightGBM,42,Shifted Test,0.9108133158183968,0.8752271376527724,0.11935925807640588
+Label Noise,5% Noise,0.05,None,0.0,None,Logistic Regression,42,In-domain Test,0.8685423885091662,0.8004950887842271,0.14499434182791987
+Label Noise,5% Noise,0.05,None,0.0,None,Logistic Regression,42,Shifted Test,0.8780647597467137,0.8151501188554207,0.13913271320099108
+Label Noise,5% Noise,0.05,None,0.0,None,LightGBM,42,In-domain Test,0.9032477013648441,0.8606938955027831,0.12511936838823104
+Label Noise,5% Noise,0.05,None,0.0,None,LightGBM,42,Shifted Test,0.9104964635165546,0.87482659361155,0.12077623884280787
+Label Noise,10% Noise,0.1,None,0.0,None,Logistic Regression,42,In-domain Test,0.8680045134756584,0.7998709026556922,0.14968882928505775
+Label Noise,10% Noise,0.1,None,0.0,None,Logistic Regression,42,Shifted Test,0.8774381908523552,0.8142702137940988,0.14412638388237017
+Label Noise,10% Noise,0.1,None,0.0,None,LightGBM,42,In-domain Test,0.9025102784529289,0.8593730167021364,0.12936647866773027
+Label Noise,10% Noise,0.1,None,0.0,None,LightGBM,42,Shifted Test,0.9096238567710232,0.8734648076083847,0.12541806277958636
+Label Noise,20% Noise,0.2,None,0.0,None,Logistic Regression,42,In-domain Test,0.8671568229421971,0.7984057518651371,0.16490006332634416
+Label Noise,20% Noise,0.2,None,0.0,None,Logistic Regression,42,Shifted Test,0.8762562639020395,0.8121661285354759,0.16041957338746776
+Label Noise,20% Noise,0.2,None,0.0,None,LightGBM,42,In-domain Test,0.9003903867058334,0.8552595894031402,0.14583081170327947
+Label Noise,20% Noise,0.2,None,0.0,None,LightGBM,42,Shifted Test,0.9072453610686162,0.8686849206185099,0.1425833775218692
+Feature Shift,Education,0.0,None,0.0,Education,Logistic Regression,42,In-domain Test,0.8648920695651428,0.7897861472367003,0.14425210095451912
+Feature Shift,Education,0.0,None,0.0,Education,Logistic Regression,42,Shifted Test,0.8745988162152086,0.8055328929493386,0.13846271058885462
+Feature Shift,Education,0.0,None,0.0,Education,LightGBM,42,In-domain Test,0.897022468352787,0.8517121785661835,0.12745776055002067
+Feature Shift,Education,0.0,None,0.0,Education,LightGBM,42,Shifted Test,0.9056155374925814,0.866916961281172,0.122555058374036
+Feature Shift,Disability,0.0,None,0.0,Disability,Logistic Regression,42,In-domain Test,0.8604632094031385,0.7895350551042476,0.15973981839943266
+Feature Shift,Disability,0.0,None,0.0,Disability,Logistic Regression,42,Shifted Test,0.8692741805882073,0.804192945391475,0.15284426951608632
+Feature Shift,Disability,0.0,None,0.0,Disability,LightGBM,42,In-domain Test,0.8944732638377032,0.8491421356739299,0.13029942158756494
+Feature Shift,Disability,0.0,None,0.0,Disability,LightGBM,42,Shifted Test,0.900006482954353,0.8599701990104436,0.12686557408764726
+Feature Shift,Citizenship_Nativity_Ancestry,0.0,None,0.0,Citizenship_Nativity_Ancestry,Logistic Regression,42,In-domain Test,0.8685481144355317,0.7985592541882351,0.17867118762112003
+Feature Shift,Citizenship_Nativity_Ancestry,0.0,None,0.0,Citizenship_Nativity_Ancestry,Logistic Regression,42,Shifted Test,0.8785119324839052,0.8149206404859565,0.169088076355542
+Feature Shift,Citizenship_Nativity_Ancestry,0.0,None,0.0,Citizenship_Nativity_Ancestry,LightGBM,42,In-domain Test,0.901776111447688,0.8587153513875815,0.12556724999102994
+Feature Shift,Citizenship_Nativity_Ancestry,0.0,None,0.0,Citizenship_Nativity_Ancestry,LightGBM,42,Shifted Test,0.9091605856931892,0.8725524199073769,0.12069916582055955
+Baseline,None,0.0,None,0.0,None,Logistic Regression,43,In-domain Test,0.8683362988550793,0.798961636761205,0.14262257461231115
+Baseline,None,0.0,None,0.0,None,Logistic Regression,43,Shifted Test,0.8788766520234514,0.8155767382477619,0.1367047407170181
+Baseline,None,0.0,None,0.0,None,LightGBM,43,In-domain Test,0.9044619342063159,0.8628008572542171,0.12293678830551927
+Baseline,None,0.0,None,0.0,None,LightGBM,43,Shifted Test,0.91074143450482,0.8751580677989204,0.11940941081266511
+Label Noise,0% Noise,0.0,None,0.0,None,Logistic Regression,43,In-domain Test,0.8683362988550793,0.798961636761205,0.14262257461231115
+Label Noise,0% Noise,0.0,None,0.0,None,Logistic Regression,43,Shifted Test,0.8788766520234514,0.8155767382477619,0.1367047407170181
+Label Noise,0% Noise,0.0,None,0.0,None,LightGBM,43,In-domain Test,0.9044619342063159,0.8628008572542171,0.12293678830551927
+Label Noise,0% Noise,0.0,None,0.0,None,LightGBM,43,Shifted Test,0.91074143450482,0.8751580677989204,0.11940941081266511
+Label Noise,5% Noise,0.05,None,0.0,None,Logistic Regression,43,In-domain Test,0.867667899167167,0.7988828842879767,0.14506514938519469
+Label Noise,5% Noise,0.05,None,0.0,None,Logistic Regression,43,Shifted Test,0.8780768906996957,0.8149703098059984,0.1391400801887674
+Label Noise,5% Noise,0.05,None,0.0,None,LightGBM,43,In-domain Test,0.9041892414106985,0.8619410129089399,0.12438235283032796
+Label Noise,5% Noise,0.05,None,0.0,None,LightGBM,43,Shifted Test,0.9102621690486092,0.8743347483533032,0.12092314967558732
+Label Noise,10% Noise,0.1,None,0.0,None,Logistic Regression,43,In-domain Test,0.8672039474472694,0.7981169669024908,0.149718091444081
+Label Noise,10% Noise,0.1,None,0.0,None,Logistic Regression,43,Shifted Test,0.8774875162577243,0.8139583436496013,0.14411271986886515
+Label Noise,10% Noise,0.1,None,0.0,None,LightGBM,43,In-domain Test,0.9036557908147878,0.8607906943065079,0.1287051786444645
+Label Noise,10% Noise,0.1,None,0.0,None,LightGBM,43,Shifted Test,0.90962050998361,0.8732655628481991,0.1253999558986334
+Label Noise,20% Noise,0.2,None,0.0,None,Logistic Regression,43,In-domain Test,0.8667181432003686,0.7972111222833386,0.1645977799348594
+Label Noise,20% Noise,0.2,None,0.0,None,Logistic Regression,43,Shifted Test,0.8770901374862493,0.8132160988450889,0.15990966465372444
+Label Noise,20% Noise,0.2,None,0.0,None,LightGBM,43,In-domain Test,0.9017671658191322,0.8579017584617419,0.1447730401970569
+Label Noise,20% Noise,0.2,None,0.0,None,LightGBM,43,Shifted Test,0.9079697883633244,0.8703353253905936,0.14188331440791865
+Feature Shift,Education,0.0,None,0.0,Education,Logistic Regression,43,In-domain Test,0.8641705073381744,0.7881533130920141,0.14432832364916687
+Feature Shift,Education,0.0,None,0.0,Education,Logistic Regression,43,Shifted Test,0.8745774295876239,0.8054474538598987,0.13846654002273207
+Feature Shift,Education,0.0,None,0.0,Education,LightGBM,43,In-domain Test,0.8978248539685907,0.8518952120494165,0.12708358118832283
+Feature Shift,Education,0.0,None,0.0,Education,LightGBM,43,Shifted Test,0.9054671979140327,0.8666043352080025,0.12285490010855274
+Feature Shift,Disability,0.0,None,0.0,Disability,Logistic Regression,43,In-domain Test,0.8586923525993122,0.7874161706753224,0.15993786798618764
+Feature Shift,Disability,0.0,None,0.0,Disability,Logistic Regression,43,Shifted Test,0.8693304701174227,0.8042481003532385,0.1524376033860869
+Feature Shift,Disability,0.0,None,0.0,Disability,LightGBM,43,In-domain Test,0.8939736918995439,0.8484778386559247,0.13087407266416617
+Feature Shift,Disability,0.0,None,0.0,Disability,LightGBM,43,Shifted Test,0.8999335252859062,0.8596751674223322,0.12739517208177023
+Feature Shift,Citizenship_Nativity_Ancestry,0.0,None,0.0,Citizenship_Nativity_Ancestry,Logistic Regression,43,In-domain Test,0.8674487109805553,0.7965860871847418,0.1788326147449662
+Feature Shift,Citizenship_Nativity_Ancestry,0.0,None,0.0,Citizenship_Nativity_Ancestry,Logistic Regression,43,Shifted Test,0.8785887384692381,0.8150589802499886,0.16926849335580915
+Feature Shift,Citizenship_Nativity_Ancestry,0.0,None,0.0,Citizenship_Nativity_Ancestry,LightGBM,43,In-domain Test,0.9017560335646025,0.858008448759458,0.12517648083039942
+Feature Shift,Citizenship_Nativity_Ancestry,0.0,None,0.0,Citizenship_Nativity_Ancestry,LightGBM,43,Shifted Test,0.9091448249350422,0.8725054463899672,0.12079385263816268
+Baseline,None,0.0,None,0.0,None,Logistic Regression,44,In-domain Test,0.8677219730604683,0.7989605811750342,0.1433667573828299
+Baseline,None,0.0,None,0.0,None,Logistic Regression,44,Shifted Test,0.8787656995167339,0.8156177533053055,0.1367880792208246
+Baseline,None,0.0,None,0.0,None,LightGBM,44,In-domain Test,0.9017779441436226,0.8601635087513587,0.12473983070929918
+Baseline,None,0.0,None,0.0,None,LightGBM,44,Shifted Test,0.9105702100850487,0.8747647427689078,0.11950501071668887
+Label Noise,0% Noise,0.0,None,0.0,None,Logistic Regression,44,In-domain Test,0.8677219730604683,0.7989605811750342,0.1433667573828299
+Label Noise,0% Noise,0.0,None,0.0,None,Logistic Regression,44,Shifted Test,0.8787656995167339,0.8156177533053055,0.1367880792208246
+Label Noise,0% Noise,0.0,None,0.0,None,LightGBM,44,In-domain Test,0.9017779441436226,0.8601635087513587,0.12473983070929918
+Label Noise,0% Noise,0.0,None,0.0,None,LightGBM,44,Shifted Test,0.9105702100850487,0.8747647427689078,0.11950501071668887
+Label Noise,5% Noise,0.05,None,0.0,None,Logistic Regression,44,In-domain Test,0.867142339276062,0.7991121244745574,0.14559235215861416
+Label Noise,5% Noise,0.05,None,0.0,None,Logistic Regression,44,Shifted Test,0.8779513687042316,0.8150540219521448,0.13916775475306736
+Label Noise,5% Noise,0.05,None,0.0,None,LightGBM,44,In-domain Test,0.9014319678550128,0.8589553137422388,0.12580882286200826
+Label Noise,5% Noise,0.05,None,0.0,None,LightGBM,44,Shifted Test,0.910015189527339,0.8737829628612731,0.1210066347392616
+Label Noise,10% Noise,0.1,None,0.0,None,Logistic Regression,44,In-domain Test,0.8666420357576454,0.7988753703111969,0.15012667910129554
+Label Noise,10% Noise,0.1,None,0.0,None,Logistic Regression,44,Shifted Test,0.8773466767057558,0.8144942077869656,0.14406630583891147
+Label Noise,10% Noise,0.1,None,0.0,None,LightGBM,44,In-domain Test,0.9007811023730965,0.8578002429623119,0.12985839802195076
+Label Noise,10% Noise,0.1,None,0.0,None,LightGBM,44,Shifted Test,0.9095377206076053,0.8726087989008029,0.1253320318760825
+Label Noise,20% Noise,0.2,None,0.0,None,Logistic Regression,44,In-domain Test,0.8661583388613834,0.7986312756322035,0.16510217106676964
+Label Noise,20% Noise,0.2,None,0.0,None,Logistic Regression,44,Shifted Test,0.8767455575045033,0.8138821002922262,0.1601669163783278
+Label Noise,20% Noise,0.2,None,0.0,None,LightGBM,44,In-domain Test,0.898949547503878,0.8539000136233794,0.1459946233721215
+Label Noise,20% Noise,0.2,None,0.0,None,LightGBM,44,Shifted Test,0.9076534429266734,0.8692911159347226,0.14225918312337393
+Feature Shift,Education,0.0,None,0.0,Education,Logistic Regression,44,In-domain Test,0.8630550883928724,0.787799696478097,0.14514050030249398
+Feature Shift,Education,0.0,None,0.0,Education,Logistic Regression,44,Shifted Test,0.8744336751044618,0.8054510638616438,0.13854718600610663
+Feature Shift,Education,0.0,None,0.0,Education,LightGBM,44,In-domain Test,0.8947896910254429,0.8486355928624225,0.12860442264674207
+Feature Shift,Education,0.0,None,0.0,Education,LightGBM,44,Shifted Test,0.9051060576307379,0.8662126827414071,0.12296433628580633
+Feature Shift,Disability,0.0,None,0.0,Disability,Logistic Regression,44,In-domain Test,0.8584419923522147,0.7868649439203736,0.1612999278178331
+Feature Shift,Disability,0.0,None,0.0,Disability,Logistic Regression,44,Shifted Test,0.8692331823862265,0.8042745773916988,0.1531670441765031
+Feature Shift,Disability,0.0,None,0.0,Disability,LightGBM,44,In-domain Test,0.8922231345752121,0.8466804354261575,0.1315596944933745
+Feature Shift,Disability,0.0,None,0.0,Disability,LightGBM,44,Shifted Test,0.8998294257235077,0.8594430252184083,0.12713473377177592
+Feature Shift,Citizenship_Nativity_Ancestry,0.0,None,0.0,Citizenship_Nativity_Ancestry,Logistic Regression,44,In-domain Test,0.8665791772833195,0.7965053099740776,0.18006976140522093
+Feature Shift,Citizenship_Nativity_Ancestry,0.0,None,0.0,Citizenship_Nativity_Ancestry,Logistic Regression,44,Shifted Test,0.8784705346085131,0.8150222328071657,0.1691992026764439
+Feature Shift,Citizenship_Nativity_Ancestry,0.0,None,0.0,Citizenship_Nativity_Ancestry,LightGBM,44,In-domain Test,0.8993565283475614,0.8560973769368274,0.12685622276884304
+Feature Shift,Citizenship_Nativity_Ancestry,0.0,None,0.0,Citizenship_Nativity_Ancestry,LightGBM,44,Shifted Test,0.909041521321456,0.8721607014863948,0.12083152181984952
+Baseline,None,0.0,None,0.0,None,LightGBM,42,Generalization Gap (Shifted - In-domain),0.007037726239615183,0.013427966962818005,-0.004321347547317653
+Baseline,None,0.0,None,0.0,None,LightGBM,43,Generalization Gap (Shifted - In-domain),0.006279500298504104,0.01235721054470329,-0.0035273774928541585
+Baseline,None,0.0,None,0.0,None,LightGBM,44,Generalization Gap (Shifted - In-domain),0.008792265941426125,0.014601234017549092,-0.005234819992610315
+Baseline,None,0.0,None,0.0,None,Logistic Regression,42,Generalization Gap (Shifted - In-domain),0.009493776367524687,0.015114014499521544,-0.005752597021287331
+Baseline,None,0.0,None,0.0,None,Logistic Regression,43,Generalization Gap (Shifted - In-domain),0.010540353168372096,0.01661510148655687,-0.005917833895293045
+Baseline,None,0.0,None,0.0,None,Logistic Regression,44,Generalization Gap (Shifted - In-domain),0.011043726456265612,0.01665717213027129,-0.0065786781620053025
+Feature Shift,Citizenship_Nativity_Ancestry,0.0,None,0.0,Citizenship_Nativity_Ancestry,LightGBM,42,Generalization Gap (Shifted - In-domain),0.00738447424550126,0.013837068519795381,-0.004868084170470396
+Feature Shift,Citizenship_Nativity_Ancestry,0.0,None,0.0,Citizenship_Nativity_Ancestry,LightGBM,43,Generalization Gap (Shifted - In-domain),0.007388791370439685,0.014496997630509156,-0.00438262819223674
+Feature Shift,Citizenship_Nativity_Ancestry,0.0,None,0.0,Citizenship_Nativity_Ancestry,LightGBM,44,Generalization Gap (Shifted - In-domain),0.00968499297389458,0.01606332454956738,-0.006024700948993517
+Feature Shift,Citizenship_Nativity_Ancestry,0.0,None,0.0,Citizenship_Nativity_Ancestry,Logistic Regression,42,Generalization Gap (Shifted - In-domain),0.00996381804837354,0.016361386297721325,-0.009583111265578037
+Feature Shift,Citizenship_Nativity_Ancestry,0.0,None,0.0,Citizenship_Nativity_Ancestry,Logistic Regression,43,Generalization Gap (Shifted - In-domain),0.011140027488682813,0.018472893065246798,-0.009564121389157049
+Feature Shift,Citizenship_Nativity_Ancestry,0.0,None,0.0,Citizenship_Nativity_Ancestry,Logistic Regression,44,Generalization Gap (Shifted - In-domain),0.011891357325193641,0.018516922833088034,-0.010870558728777041
+Feature Shift,Disability,0.0,None,0.0,Disability,LightGBM,42,Generalization Gap (Shifted - In-domain),0.005533219116649835,0.01082806333651365,-0.0034338474999176805
+Feature Shift,Disability,0.0,None,0.0,Disability,LightGBM,43,Generalization Gap (Shifted - In-domain),0.005959833386362301,0.011197328766407444,-0.003478900582395944
+Feature Shift,Disability,0.0,None,0.0,Disability,LightGBM,44,Generalization Gap (Shifted - In-domain),0.007606291148295585,0.012762589792250867,-0.004424960721598592
+Feature Shift,Disability,0.0,None,0.0,Disability,Logistic Regression,42,Generalization Gap (Shifted - In-domain),0.008810971185068794,0.014657890287227415,-0.006895548883346342
+Feature Shift,Disability,0.0,None,0.0,Disability,Logistic Regression,43,Generalization Gap (Shifted - In-domain),0.010638117518110501,0.016831929677916024,-0.007500264600100753
+Feature Shift,Disability,0.0,None,0.0,Disability,Logistic Regression,44,Generalization Gap (Shifted - In-domain),0.010791190034011744,0.01740963347132518,-0.008132883641329997
+Feature Shift,Education,0.0,None,0.0,Education,LightGBM,42,Generalization Gap (Shifted - In-domain),0.008593069139794407,0.015204782714988485,-0.004902702175984666
+Feature Shift,Education,0.0,None,0.0,Education,LightGBM,43,Generalization Gap (Shifted - In-domain),0.007642343945442054,0.014709123158585968,-0.004228681079770091
+Feature Shift,Education,0.0,None,0.0,Education,LightGBM,44,Generalization Gap (Shifted - In-domain),0.010316366605295002,0.017577089878984542,-0.005640086360935742
+Feature Shift,Education,0.0,None,0.0,Education,Logistic Regression,42,Generalization Gap (Shifted - In-domain),0.009706746650065878,0.015746745712638344,-0.005789390365664504
+Feature Shift,Education,0.0,None,0.0,Education,Logistic Regression,43,Generalization Gap (Shifted - In-domain),0.010406922249449502,0.017294140767884603,-0.005861783626434802
+Feature Shift,Education,0.0,None,0.0,Education,Logistic Regression,44,Generalization Gap (Shifted - In-domain),0.011378586711589422,0.01765136738354678,-0.006593314296387348
+Label Noise,0% Noise,0.0,None,0.0,None,LightGBM,42,Generalization Gap (Shifted - In-domain),0.007037726239615183,0.013427966962818005,-0.004321347547317653
+Label Noise,0% Noise,0.0,None,0.0,None,LightGBM,43,Generalization Gap (Shifted - In-domain),0.006279500298504104,0.01235721054470329,-0.0035273774928541585
+Label Noise,0% Noise,0.0,None,0.0,None,LightGBM,44,Generalization Gap (Shifted - In-domain),0.008792265941426125,0.014601234017549092,-0.005234819992610315
+Label Noise,0% Noise,0.0,None,0.0,None,Logistic Regression,42,Generalization Gap (Shifted - In-domain),0.009493776367524687,0.015114014499521544,-0.005752597021287331
+Label Noise,0% Noise,0.0,None,0.0,None,Logistic Regression,43,Generalization Gap (Shifted - In-domain),0.010540353168372096,0.01661510148655687,-0.005917833895293045
+Label Noise,0% Noise,0.0,None,0.0,None,Logistic Regression,44,Generalization Gap (Shifted - In-domain),0.011043726456265612,0.01665717213027129,-0.0065786781620053025
+Label Noise,10% Noise,0.1,None,0.0,None,LightGBM,42,Generalization Gap (Shifted - In-domain),0.007113578318094338,0.014091790906248347,-0.003948415888143902
+Label Noise,10% Noise,0.1,None,0.0,None,LightGBM,43,Generalization Gap (Shifted - In-domain),0.005964719168822241,0.01247486854169122,-0.0033052227458311156
+Label Noise,10% Noise,0.1,None,0.0,None,LightGBM,44,Generalization Gap (Shifted - In-domain),0.008756618234508795,0.014808555938490953,-0.004526366145868266
+Label Noise,10% Noise,0.1,None,0.0,None,Logistic Regression,42,Generalization Gap (Shifted - In-domain),0.009433677376696759,0.014399311138406645,-0.005562445402687577
+Label Noise,10% Noise,0.1,None,0.0,None,Logistic Regression,43,Generalization Gap (Shifted - In-domain),0.01028356881045489,0.015841376747110503,-0.005605371575215845
+Label Noise,10% Noise,0.1,None,0.0,None,Logistic Regression,44,Generalization Gap (Shifted - In-domain),0.010704640948110411,0.015618837475768643,-0.006060373262384067
+Label Noise,20% Noise,0.2,None,0.0,None,LightGBM,42,Generalization Gap (Shifted - In-domain),0.0068549743627828175,0.013425331215369707,-0.003247434181410269
+Label Noise,20% Noise,0.2,None,0.0,None,LightGBM,43,Generalization Gap (Shifted - In-domain),0.006202622544192238,0.01243356692885167,-0.0028897257891382366
+Label Noise,20% Noise,0.2,None,0.0,None,LightGBM,44,Generalization Gap (Shifted - In-domain),0.008703895422795371,0.015391102311343219,-0.003735440248747557
+Label Noise,20% Noise,0.2,None,0.0,None,Logistic Regression,42,Generalization Gap (Shifted - In-domain),0.009099440959842386,0.013760376670338803,-0.0044804899388763975
+Label Noise,20% Noise,0.2,None,0.0,None,Logistic Regression,43,Generalization Gap (Shifted - In-domain),0.010371994285880759,0.016004976561750373,-0.004688115281134969
+Label Noise,20% Noise,0.2,None,0.0,None,Logistic Regression,44,Generalization Gap (Shifted - In-domain),0.010587218643119956,0.0152508246600227,-0.004935254688441831
+Label Noise,5% Noise,0.05,None,0.0,None,LightGBM,42,Generalization Gap (Shifted - In-domain),0.007248762151710442,0.014132698108766939,-0.004343129545423166
+Label Noise,5% Noise,0.05,None,0.0,None,LightGBM,43,Generalization Gap (Shifted - In-domain),0.0060729276379107855,0.012393735444363285,-0.003459203154740645
+Label Noise,5% Noise,0.05,None,0.0,None,LightGBM,44,Generalization Gap (Shifted - In-domain),0.008583221672326169,0.014827649119034336,-0.004802188122746659
+Label Noise,5% Noise,0.05,None,0.0,None,Logistic Regression,42,Generalization Gap (Shifted - In-domain),0.009522371237547511,0.014655030071193509,-0.005861628626928794
+Label Noise,5% Noise,0.05,None,0.0,None,Logistic Regression,43,Generalization Gap (Shifted - In-domain),0.010408991532528722,0.01608742551802167,-0.005925069196427296
+Label Noise,5% Noise,0.05,None,0.0,None,Logistic Regression,44,Generalization Gap (Shifted - In-domain),0.010809029428169636,0.015941897477587452,-0.006424597405546795

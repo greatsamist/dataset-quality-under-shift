@@ -1,0 +1,10 @@
+{
+  "CA_rows": 378817,
+  "TX_rows": 268100,
+  "CA_prev": 0.45616485004632845,
+  "TX_prev": 0.45210742260350617,
+  "CA_under16_share": 0.17928445661097575,
+  "TX_under16_share": 0.20054830287206266,
+  "CA_any_minus1_share": 0.0,
+  "cols_with_minus1_CA": {}
+}

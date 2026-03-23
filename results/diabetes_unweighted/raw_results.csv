@@ -1,0 +1,19 @@
+Experiment,Condition,Noise Rate,Missingness Type,Missing Rate,Feature Group Blanked,Model,Random Seed,Test Set,AUROC,AUPRC,Brier Score
+Baseline,None,0.0,None,0.0,None,Logistic Regression,42,In-domain Test,0.6419079571897772,0.20039816205944877,0.09735896727110228
+Baseline,None,0.0,None,0.0,None,Logistic Regression,42,Shifted Test,0.6254803623264436,0.18330451647577706,0.09104888045178484
+Baseline,None,0.0,None,0.0,None,LightGBM,42,In-domain Test,0.6836022709215145,0.23012980757623902,0.09518368053780386
+Baseline,None,0.0,None,0.0,None,LightGBM,42,Shifted Test,0.6649301110994532,0.20761921518310422,0.08961516915311675
+Baseline,None,0.0,None,0.0,None,Logistic Regression,43,In-domain Test,0.6260699880350602,0.19188828364293892,0.09983787297212399
+Baseline,None,0.0,None,0.0,None,Logistic Regression,43,Shifted Test,0.629053964256986,0.18003309270301573,0.09135244449221464
+Baseline,None,0.0,None,0.0,None,LightGBM,43,In-domain Test,0.6649607858670681,0.21739838626902513,0.0977461654828675
+Baseline,None,0.0,None,0.0,None,LightGBM,43,Shifted Test,0.6665061378659112,0.20030699412892503,0.0898175195696679
+Baseline,None,0.0,None,0.0,None,Logistic Regression,44,In-domain Test,0.6342146795121599,0.20716284357132175,0.09935399099234826
+Baseline,None,0.0,None,0.0,None,Logistic Regression,44,Shifted Test,0.6274680283052961,0.1836198395410789,0.09119548004869936
+Baseline,None,0.0,None,0.0,None,LightGBM,44,In-domain Test,0.6765799217260444,0.23318952304014895,0.09728138489740935
+Baseline,None,0.0,None,0.0,None,LightGBM,44,Shifted Test,0.663696475827417,0.20722976824443282,0.08966792533166441
+Baseline,None,0.0,None,0.0,None,LightGBM,42,Generalization Gap (Shifted - In-domain),-0.018672159822061274,-0.0225105923931348,-0.005568511384687114
+Baseline,None,0.0,None,0.0,None,LightGBM,43,Generalization Gap (Shifted - In-domain),0.001545351998843092,-0.01709139214010011,-0.007928645913199611
+Baseline,None,0.0,None,0.0,None,LightGBM,44,Generalization Gap (Shifted - In-domain),-0.012883445898627444,-0.025959754795716133,-0.00761345956574494
+Baseline,None,0.0,None,0.0,None,Logistic Regression,42,Generalization Gap (Shifted - In-domain),-0.016427594863333672,-0.017093645583671713,-0.00631008681931744
+Baseline,None,0.0,None,0.0,None,Logistic Regression,43,Generalization Gap (Shifted - In-domain),0.0029839762219258104,-0.011855190939923183,-0.008485428479909352
+Baseline,None,0.0,None,0.0,None,Logistic Regression,44,Generalization Gap (Shifted - In-domain),-0.006746651206863796,-0.023543004030242842,-0.008158510943648903

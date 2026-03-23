@@ -1,0 +1,55 @@
+Experiment,Condition,Noise Rate,Missingness Type,Missing Rate,Feature Group Blanked,Model,Random Seed,Test Set,AUROC,AUPRC,Brier Score
+Baseline,None,0.0,None,0.0,None,Logistic Regression,42,In-domain Test,0.6396787115850916,0.19944205661769432,0.22352562658185973
+Baseline,None,0.0,None,0.0,None,Logistic Regression,42,Shifted Test,0.6220538826519312,0.18328542108622015,0.21449286948693588
+Baseline,None,0.0,None,0.0,None,LightGBM,42,In-domain Test,0.683389067771639,0.23101807301423466,0.2110647678149227
+Baseline,None,0.0,None,0.0,None,LightGBM,42,Shifted Test,0.6581020995814826,0.20515763029301268,0.2118737357248419
+Feature Shift,Diagnoses,0.0,None,0.0,Diagnoses,Logistic Regression,42,In-domain Test,0.6528980984426153,0.20507049087542253,0.3719006693783964
+Feature Shift,Diagnoses,0.0,None,0.0,Diagnoses,Logistic Regression,42,Shifted Test,0.6339553970085918,0.1791897654100012,0.3665780048554729
+Feature Shift,Diagnoses,0.0,None,0.0,Diagnoses,LightGBM,42,In-domain Test,0.6785509220844526,0.2295553899939534,0.21157081756679932
+Feature Shift,Diagnoses,0.0,None,0.0,Diagnoses,LightGBM,42,Shifted Test,0.658961284230406,0.19558750542754394,0.2136385545322471
+Feature Shift,Medications,0.0,None,0.0,Medications,Logistic Regression,42,In-domain Test,0.6377279979989231,0.19901131290187593,0.39158299384979034
+Feature Shift,Medications,0.0,None,0.0,Medications,Logistic Regression,42,Shifted Test,0.6202490119959432,0.1810292235132051,0.3812460772022682
+Feature Shift,Medications,0.0,None,0.0,Medications,LightGBM,42,In-domain Test,0.6769555470814099,0.22350081130745753,0.18077211299689255
+Feature Shift,Medications,0.0,None,0.0,Medications,LightGBM,42,Shifted Test,0.6547130416535516,0.20095771772843285,0.1821738940692423
+Baseline,None,0.0,None,0.0,None,Logistic Regression,43,In-domain Test,0.6216336416831629,0.1893345164731433,0.22632121519180548
+Baseline,None,0.0,None,0.0,None,Logistic Regression,43,Shifted Test,0.6240331549679992,0.179575766374118,0.21746586846441024
+Baseline,None,0.0,None,0.0,None,LightGBM,43,In-domain Test,0.6604511184413456,0.20936896927858964,0.21348750012495218
+Baseline,None,0.0,None,0.0,None,LightGBM,43,Shifted Test,0.6542130358246191,0.20407947840359703,0.2099129777748704
+Feature Shift,Diagnoses,0.0,None,0.0,Diagnoses,Logistic Regression,43,In-domain Test,0.6166204065671603,0.18922204462843253,0.41311610301288626
+Feature Shift,Diagnoses,0.0,None,0.0,Diagnoses,Logistic Regression,43,Shifted Test,0.63031604471957,0.17613555127194314,0.41321989459585245
+Feature Shift,Diagnoses,0.0,None,0.0,Diagnoses,LightGBM,43,In-domain Test,0.6491279367257193,0.20619044704541076,0.21070649146870252
+Feature Shift,Diagnoses,0.0,None,0.0,Diagnoses,LightGBM,43,Shifted Test,0.6511643875540634,0.1977888030664276,0.20583470228486173
+Feature Shift,Medications,0.0,None,0.0,Medications,Logistic Regression,43,In-domain Test,0.6226309527622059,0.19016730762673717,0.4078657166376733
+Feature Shift,Medications,0.0,None,0.0,Medications,Logistic Regression,43,Shifted Test,0.6217393534548082,0.17751564970768308,0.4017404131416406
+Feature Shift,Medications,0.0,None,0.0,Medications,LightGBM,43,In-domain Test,0.6612799957235393,0.20760650399960115,0.21121423308168988
+Feature Shift,Medications,0.0,None,0.0,Medications,LightGBM,43,Shifted Test,0.6522208232784248,0.201636048271274,0.20365148687694357
+Baseline,None,0.0,None,0.0,None,Logistic Regression,44,In-domain Test,0.6306068450914377,0.2041385901211908,0.22862969352393855
+Baseline,None,0.0,None,0.0,None,Logistic Regression,44,Shifted Test,0.6254227724734492,0.1827392249519427,0.21933898766107815
+Baseline,None,0.0,None,0.0,None,LightGBM,44,In-domain Test,0.6745333148490902,0.22958944631651212,0.2146262395355262
+Baseline,None,0.0,None,0.0,None,LightGBM,44,Shifted Test,0.6614834633185278,0.2045185898236876,0.21622596298539307
+Feature Shift,Diagnoses,0.0,None,0.0,Diagnoses,Logistic Regression,44,In-domain Test,0.6400591937251848,0.20566421223243228,0.3697171117561068
+Feature Shift,Diagnoses,0.0,None,0.0,Diagnoses,Logistic Regression,44,Shifted Test,0.6304090744820993,0.17668958429917447,0.3656486880550181
+Feature Shift,Diagnoses,0.0,None,0.0,Diagnoses,LightGBM,44,In-domain Test,0.6712246737197586,0.2304500440746326,0.2125990755085381
+Feature Shift,Diagnoses,0.0,None,0.0,Diagnoses,LightGBM,44,Shifted Test,0.663100292612411,0.19764726275192296,0.21702300347875236
+Feature Shift,Medications,0.0,None,0.0,Medications,Logistic Regression,44,In-domain Test,0.6303590449059139,0.20410673363874293,0.42799722143163205
+Feature Shift,Medications,0.0,None,0.0,Medications,Logistic Regression,44,Shifted Test,0.6224346285221324,0.18115998897696106,0.4212310494188537
+Feature Shift,Medications,0.0,None,0.0,Medications,LightGBM,44,In-domain Test,0.6715344239516634,0.22610863262357594,0.2036650599142609
+Feature Shift,Medications,0.0,None,0.0,Medications,LightGBM,44,Shifted Test,0.6602021473787291,0.2030784448306606,0.20145728743741267
+Baseline,None,0.0,None,0.0,None,LightGBM,42,Generalization Gap (Shifted - In-domain),-0.02528696819015641,-0.025860442721221982,0.0008089679099191893
+Baseline,None,0.0,None,0.0,None,LightGBM,43,Generalization Gap (Shifted - In-domain),-0.006238082616726537,-0.005289490874992614,-0.0035745223500817935
+Baseline,None,0.0,None,0.0,None,LightGBM,44,Generalization Gap (Shifted - In-domain),-0.013049851530562373,-0.025070856492824534,0.0015997234498668633
+Baseline,None,0.0,None,0.0,None,Logistic Regression,42,Generalization Gap (Shifted - In-domain),-0.01762482893316042,-0.016156635531474173,-0.009032757094923849
+Baseline,None,0.0,None,0.0,None,Logistic Regression,43,Generalization Gap (Shifted - In-domain),0.00239951328483623,-0.009758750099025298,-0.008855346727395241
+Baseline,None,0.0,None,0.0,None,Logistic Regression,44,Generalization Gap (Shifted - In-domain),-0.005184072617988478,-0.02139936516924809,-0.009290705862860404
+Feature Shift,Diagnoses,0.0,None,0.0,Diagnoses,LightGBM,42,Generalization Gap (Shifted - In-domain),-0.01958963785404655,-0.03396788456640945,0.002067736965447764
+Feature Shift,Diagnoses,0.0,None,0.0,Diagnoses,LightGBM,43,Generalization Gap (Shifted - In-domain),0.0020364508283440275,-0.008401643978983159,-0.004871789183840791
+Feature Shift,Diagnoses,0.0,None,0.0,Diagnoses,LightGBM,44,Generalization Gap (Shifted - In-domain),-0.008124381107347589,-0.03280278132270964,0.004423927970214264
+Feature Shift,Diagnoses,0.0,None,0.0,Diagnoses,Logistic Regression,42,Generalization Gap (Shifted - In-domain),-0.018942701434023435,-0.025880725465421334,-0.005322664522923459
+Feature Shift,Diagnoses,0.0,None,0.0,Diagnoses,Logistic Regression,43,Generalization Gap (Shifted - In-domain),0.013695638152409706,-0.013086493356489398,0.00010379158296619506
+Feature Shift,Diagnoses,0.0,None,0.0,Diagnoses,Logistic Regression,44,Generalization Gap (Shifted - In-domain),-0.009650119243085564,-0.028974627933257807,-0.004068423701088675
+Feature Shift,Medications,0.0,None,0.0,Medications,LightGBM,42,Generalization Gap (Shifted - In-domain),-0.022242505427858328,-0.022543093579024676,0.001401781072349756
+Feature Shift,Medications,0.0,None,0.0,Medications,LightGBM,43,Generalization Gap (Shifted - In-domain),-0.00905917244511456,-0.005970455728327162,-0.007562746204746312
+Feature Shift,Medications,0.0,None,0.0,Medications,LightGBM,44,Generalization Gap (Shifted - In-domain),-0.011332276572934341,-0.023030187792915352,-0.0022077724768482243
+Feature Shift,Medications,0.0,None,0.0,Medications,Logistic Regression,42,Generalization Gap (Shifted - In-domain),-0.017478986002979924,-0.017982089388670824,-0.01033691664752212
+Feature Shift,Medications,0.0,None,0.0,Medications,Logistic Regression,43,Generalization Gap (Shifted - In-domain),-0.0008915993073976836,-0.012651657919054093,-0.006125303496032686
+Feature Shift,Medications,0.0,None,0.0,Medications,Logistic Regression,44,Generalization Gap (Shifted - In-domain),-0.007924416383781496,-0.02294674466178187,-0.006766172012778349

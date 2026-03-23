@@ -1,0 +1,253 @@
+Experiment,Condition,Noise Rate,Missingness Type,Missing Rate,Feature Group Blanked,Model,Random Seed,Test Set,AUROC,AUPRC,Brier Score
+Baseline,None,0.0,None,0.0,None,Logistic Regression,42,In-domain Test,0.845116725502698,0.7678138366320257,0.15616139814898075
+Baseline,None,0.0,None,0.0,None,Logistic Regression,42,Shifted Test,0.8552542372781401,0.7855358330288644,0.1506701801480894
+Baseline,None,0.0,None,0.0,None,LightGBM,42,In-domain Test,0.904079160429508,0.8620349935501719,0.12345018621582167
+Baseline,None,0.0,None,0.0,None,LightGBM,42,Shifted Test,0.9108665017285567,0.8753193118913236,0.11934167241774156
+Label Noise,0% Noise,0.0,None,0.0,None,Logistic Regression,42,In-domain Test,0.845116725502698,0.7678138366320257,0.15616139814898075
+Label Noise,0% Noise,0.0,None,0.0,None,Logistic Regression,42,Shifted Test,0.8552542372781401,0.7855358330288644,0.1506701801480894
+Label Noise,0% Noise,0.0,None,0.0,None,LightGBM,42,In-domain Test,0.904079160429508,0.8620349935501719,0.12345018621582167
+Label Noise,0% Noise,0.0,None,0.0,None,LightGBM,42,Shifted Test,0.9108665017285567,0.8753193118913236,0.11934167241774156
+Label Noise,5% Noise,0.05,None,0.0,None,Logistic Regression,42,In-domain Test,0.8414077047336089,0.7671827536592964,0.15946573797695454
+Label Noise,5% Noise,0.05,None,0.0,None,Logistic Regression,42,Shifted Test,0.8519775701383169,0.7841531739741313,0.15387840179515364
+Label Noise,5% Noise,0.05,None,0.0,None,LightGBM,42,In-domain Test,0.9035631354261422,0.8615906982207943,0.12492818949744525
+Label Noise,5% Noise,0.05,None,0.0,None,LightGBM,42,Shifted Test,0.910471028454551,0.8749527678241789,0.1208044036319884
+Label Noise,10% Noise,0.1,None,0.0,None,Logistic Regression,42,In-domain Test,0.8400163114931908,0.7660394172849857,0.16336458260003317
+Label Noise,10% Noise,0.1,None,0.0,None,Logistic Regression,42,Shifted Test,0.8506889272419098,0.7828363972504161,0.15802757529858025
+Label Noise,10% Noise,0.1,None,0.0,None,LightGBM,42,In-domain Test,0.9029411242935381,0.8606487699113886,0.12911058040716378
+Label Noise,10% Noise,0.1,None,0.0,None,LightGBM,42,Shifted Test,0.9096681377037107,0.8738713644905695,0.1253684935005152
+Label Noise,20% Noise,0.2,None,0.0,None,Logistic Regression,42,In-domain Test,0.8384606822303,0.7641298359846733,0.17594806502577431
+Label Noise,20% Noise,0.2,None,0.0,None,Logistic Regression,42,Shifted Test,0.8490385615421427,0.7806080625999661,0.17154489313028418
+Label Noise,20% Noise,0.2,None,0.0,None,LightGBM,42,In-domain Test,0.9011170980842884,0.8580681282837699,0.14551509051741057
+Label Noise,20% Noise,0.2,None,0.0,None,LightGBM,42,Shifted Test,0.9076663833643435,0.870579519493548,0.14241584533098176
+Missingness,MCAR,0.0,MCAR,0.0,None,Logistic Regression,42,In-domain Test,0.845116725502698,0.7678138366320257,0.15616139814898075
+Missingness,MCAR,0.0,MCAR,0.0,None,Logistic Regression,42,Shifted Test,0.8552542372781401,0.7855358330288644,0.1506701801480894
+Missingness,MCAR,0.0,MCAR,0.0,None,LightGBM,42,In-domain Test,0.904079160429508,0.8620349935501719,0.12345018621582167
+Missingness,MCAR,0.0,MCAR,0.0,None,LightGBM,42,Shifted Test,0.9108665017285567,0.8753193118913236,0.11934167241774156
+Missingness,MCAR,0.0,MCAR,0.1,None,Logistic Regression,42,In-domain Test,0.8448214804347974,0.7652817587841549,0.1563860610543215
+Missingness,MCAR,0.0,MCAR,0.1,None,Logistic Regression,42,Shifted Test,0.8545395521913295,0.7830416871119212,0.15117163548736007
+Missingness,MCAR,0.0,MCAR,0.1,None,LightGBM,42,In-domain Test,0.9034373579286122,0.8603415840679183,0.12388556474140672
+Missingness,MCAR,0.0,MCAR,0.1,None,LightGBM,42,Shifted Test,0.9097157624189596,0.8733720509624978,0.12010185802532589
+Missingness,MCAR,0.0,MCAR,0.2,None,Logistic Regression,42,In-domain Test,0.8441867958602445,0.7619510567186049,0.15682545673867596
+Missingness,MCAR,0.0,MCAR,0.2,None,Logistic Regression,42,Shifted Test,0.8535008750775203,0.7796811551911571,0.15188992593198564
+Missingness,MCAR,0.0,MCAR,0.2,None,LightGBM,42,In-domain Test,0.9027586605619417,0.8597061015989838,0.12443472626226879
+Missingness,MCAR,0.0,MCAR,0.2,None,LightGBM,42,Shifted Test,0.9089111527803905,0.8721861833653232,0.12062646377612533
+Missingness,MAR_Age_Older,0.0,MAR_Age_Older,0.0,None,Logistic Regression,42,In-domain Test,0.845116725502698,0.7678138366320257,0.15616139814898075
+Missingness,MAR_Age_Older,0.0,MAR_Age_Older,0.0,None,Logistic Regression,42,Shifted Test,0.8552542372781401,0.7855358330288644,0.1506701801480894
+Missingness,MAR_Age_Older,0.0,MAR_Age_Older,0.0,None,LightGBM,42,In-domain Test,0.904079160429508,0.8620349935501719,0.12345018621582167
+Missingness,MAR_Age_Older,0.0,MAR_Age_Older,0.0,None,LightGBM,42,Shifted Test,0.9108665017285567,0.8753193118913236,0.11934167241774156
+Missingness,MAR_Age_Older,0.0,MAR_Age_Older,0.1,None,Logistic Regression,42,In-domain Test,0.8450633488578159,0.7688469606728554,0.15624747831981395
+Missingness,MAR_Age_Older,0.0,MAR_Age_Older,0.1,None,Logistic Regression,42,Shifted Test,0.855280072547127,0.7864070009807453,0.15068279272977442
+Missingness,MAR_Age_Older,0.0,MAR_Age_Older,0.1,None,LightGBM,42,In-domain Test,0.9040806448133407,0.8618457975861115,0.12343393433702321
+Missingness,MAR_Age_Older,0.0,MAR_Age_Older,0.1,None,LightGBM,42,Shifted Test,0.9107619317804329,0.8752991142294537,0.11941481589021062
+Missingness,MAR_Age_Older,0.0,MAR_Age_Older,0.2,None,Logistic Regression,42,In-domain Test,0.8448725075335288,0.769921569553278,0.15646776805563586
+Missingness,MAR_Age_Older,0.0,MAR_Age_Older,0.2,None,Logistic Regression,42,Shifted Test,0.8552339461016816,0.7873534504208975,0.1507848284420431
+Missingness,MAR_Age_Older,0.0,MAR_Age_Older,0.2,None,LightGBM,42,In-domain Test,0.9042565218257608,0.8620265182404903,0.12336474296736008
+Missingness,MAR_Age_Older,0.0,MAR_Age_Older,0.2,None,LightGBM,42,Shifted Test,0.9107092953369655,0.8751041882663104,0.1194306866097543
+Feature Shift,Education,0.0,None,0.0,Education,Logistic Regression,42,In-domain Test,0.8368454298006546,0.7461075266510939,0.1598950901138873
+Feature Shift,Education,0.0,None,0.0,Education,Logistic Regression,42,Shifted Test,0.8467308808801425,0.7648643252137928,0.1547916470062138
+Feature Shift,Education,0.0,None,0.0,Education,LightGBM,42,In-domain Test,0.89693297523853,0.8514479763209188,0.1275290934695657
+Feature Shift,Education,0.0,None,0.0,Education,LightGBM,42,Shifted Test,0.9054885695454399,0.8667375897452778,0.12269411215310752
+Feature Shift,Disability,0.0,None,0.0,Disability,Logistic Regression,42,In-domain Test,0.8332726383890173,0.7552318409705109,0.1656233174400359
+Feature Shift,Disability,0.0,None,0.0,Disability,Logistic Regression,42,Shifted Test,0.8435277955193545,0.7728953533359224,0.15960488511780596
+Feature Shift,Disability,0.0,None,0.0,Disability,LightGBM,42,In-domain Test,0.8946372451803591,0.8494832566967164,0.1312351921373229
+Feature Shift,Disability,0.0,None,0.0,Disability,LightGBM,42,Shifted Test,0.9002179351544942,0.860112953131805,0.12753641711155764
+Feature Shift,Citizenship_Nativity_Ancestry,0.0,None,0.0,Citizenship_Nativity_Ancestry,Logistic Regression,42,In-domain Test,0.8445533144480759,0.7679303523132368,0.15595315958135764
+Feature Shift,Citizenship_Nativity_Ancestry,0.0,None,0.0,Citizenship_Nativity_Ancestry,Logistic Regression,42,Shifted Test,0.8553684061279909,0.7867001371398852,0.15078038083182496
+Feature Shift,Citizenship_Nativity_Ancestry,0.0,None,0.0,Citizenship_Nativity_Ancestry,LightGBM,42,In-domain Test,0.9009972643642412,0.8573727923523667,0.12521680946772729
+Feature Shift,Citizenship_Nativity_Ancestry,0.0,None,0.0,Citizenship_Nativity_Ancestry,LightGBM,42,Shifted Test,0.9081465334265447,0.8709184744803623,0.12104813870378751
+Baseline,None,0.0,None,0.0,None,Logistic Regression,43,In-domain Test,0.8441530682625802,0.7665206982282633,0.1561357845338549
+Baseline,None,0.0,None,0.0,None,Logistic Regression,43,Shifted Test,0.855157543946004,0.7859027231881838,0.15079167351490647
+Baseline,None,0.0,None,0.0,None,LightGBM,43,In-domain Test,0.904644906049115,0.863107621080167,0.12282265251724753
+Baseline,None,0.0,None,0.0,None,LightGBM,43,Shifted Test,0.9107954450362593,0.8752097757272513,0.11940458626791574
+Label Noise,0% Noise,0.0,None,0.0,None,Logistic Regression,43,In-domain Test,0.8441530682625802,0.7665206982282633,0.1561357845338549
+Label Noise,0% Noise,0.0,None,0.0,None,Logistic Regression,43,Shifted Test,0.855157543946004,0.7859027231881838,0.15079167351490647
+Label Noise,0% Noise,0.0,None,0.0,None,LightGBM,43,In-domain Test,0.904644906049115,0.863107621080167,0.12282265251724753
+Label Noise,0% Noise,0.0,None,0.0,None,LightGBM,43,Shifted Test,0.9107954450362593,0.8752097757272513,0.11940458626791574
+Label Noise,5% Noise,0.05,None,0.0,None,Logistic Regression,43,In-domain Test,0.8407160430406893,0.7656426580212851,0.1591832858623468
+Label Noise,5% Noise,0.05,None,0.0,None,Logistic Regression,43,Shifted Test,0.8520834660686962,0.7844198603892902,0.1539418995596647
+Label Noise,5% Noise,0.05,None,0.0,None,LightGBM,43,In-domain Test,0.9042594219297498,0.8620692208468201,0.1243041638586805
+Label Noise,5% Noise,0.05,None,0.0,None,LightGBM,43,Shifted Test,0.9104146210340354,0.8748864102744194,0.12085817126870334
+Label Noise,10% Noise,0.1,None,0.0,None,Logistic Regression,43,In-domain Test,0.8392740047212643,0.7643611101646592,0.1630887797775817
+Label Noise,10% Noise,0.1,None,0.0,None,Logistic Regression,43,Shifted Test,0.8505108589766242,0.7827428454621322,0.15817668830445525
+Label Noise,10% Noise,0.1,None,0.0,None,LightGBM,43,In-domain Test,0.9037321011274626,0.8609204090061067,0.12858379708399212
+Label Noise,10% Noise,0.1,None,0.0,None,LightGBM,43,Shifted Test,0.9096276931246664,0.8733384803180657,0.12544985731428335
+Label Noise,20% Noise,0.2,None,0.0,None,Logistic Regression,43,In-domain Test,0.8381162577407684,0.7629614173674039,0.17542042705509406
+Label Noise,20% Noise,0.2,None,0.0,None,Logistic Regression,43,Shifted Test,0.8493668650544908,0.7811585309606086,0.17133979079812872
+Label Noise,20% Noise,0.2,None,0.0,None,LightGBM,43,In-domain Test,0.9022481117988466,0.8591480412815078,0.1445465618287645
+Label Noise,20% Noise,0.2,None,0.0,None,LightGBM,43,Shifted Test,0.9084348173357994,0.8715106889241594,0.141779992613352
+Missingness,MCAR,0.0,MCAR,0.0,None,Logistic Regression,43,In-domain Test,0.8441530682625802,0.7665206982282633,0.1561357845338549
+Missingness,MCAR,0.0,MCAR,0.0,None,Logistic Regression,43,Shifted Test,0.855157543946004,0.7859027231881838,0.15079167351490647
+Missingness,MCAR,0.0,MCAR,0.0,None,LightGBM,43,In-domain Test,0.904644906049115,0.863107621080167,0.12282265251724753
+Missingness,MCAR,0.0,MCAR,0.0,None,LightGBM,43,Shifted Test,0.9107954450362593,0.8752097757272513,0.11940458626791574
+Missingness,MCAR,0.0,MCAR,0.1,None,Logistic Regression,43,In-domain Test,0.8437729311709319,0.7636972919914057,0.15636895190557223
+Missingness,MCAR,0.0,MCAR,0.1,None,Logistic Regression,43,Shifted Test,0.8544120768173419,0.7831505393200467,0.15129822157527822
+Missingness,MCAR,0.0,MCAR,0.1,None,LightGBM,43,In-domain Test,0.9038179656785489,0.8614006950720554,0.12322631384732843
+Missingness,MCAR,0.0,MCAR,0.1,None,LightGBM,43,Shifted Test,0.9095891300323571,0.873060046453301,0.12018175553319221
+Missingness,MCAR,0.0,MCAR,0.2,None,Logistic Regression,43,In-domain Test,0.8431443639056977,0.7610390731928146,0.1568064429275969
+Missingness,MCAR,0.0,MCAR,0.2,None,Logistic Regression,43,Shifted Test,0.8534457814232731,0.7803754054992953,0.15200068862590252
+Missingness,MCAR,0.0,MCAR,0.2,None,LightGBM,43,In-domain Test,0.9028796447106697,0.8593923375590683,0.12386614790400542
+Missingness,MCAR,0.0,MCAR,0.2,None,LightGBM,43,Shifted Test,0.9086108987760305,0.8713858102935921,0.12077869211961184
+Missingness,MAR_Age_Older,0.0,MAR_Age_Older,0.0,None,Logistic Regression,43,In-domain Test,0.8441530682625802,0.7665206982282633,0.1561357845338549
+Missingness,MAR_Age_Older,0.0,MAR_Age_Older,0.0,None,Logistic Regression,43,Shifted Test,0.855157543946004,0.7859027231881838,0.15079167351490647
+Missingness,MAR_Age_Older,0.0,MAR_Age_Older,0.0,None,LightGBM,43,In-domain Test,0.904644906049115,0.863107621080167,0.12282265251724753
+Missingness,MAR_Age_Older,0.0,MAR_Age_Older,0.0,None,LightGBM,43,Shifted Test,0.9107954450362593,0.8752097757272513,0.11940458626791574
+Missingness,MAR_Age_Older,0.0,MAR_Age_Older,0.1,None,Logistic Regression,43,In-domain Test,0.8439652381525946,0.7674587279316045,0.1563363036714202
+Missingness,MAR_Age_Older,0.0,MAR_Age_Older,0.1,None,Logistic Regression,43,Shifted Test,0.8551614153188112,0.786819857056049,0.15083011801366475
+Missingness,MAR_Age_Older,0.0,MAR_Age_Older,0.1,None,LightGBM,43,In-domain Test,0.904579261702188,0.8629827237843689,0.12281722359232888
+Missingness,MAR_Age_Older,0.0,MAR_Age_Older,0.1,None,LightGBM,43,Shifted Test,0.9107712858569211,0.8752684828083517,0.11941338786231366
+Missingness,MAR_Age_Older,0.0,MAR_Age_Older,0.2,None,Logistic Regression,43,In-domain Test,0.8436972588062288,0.7682840089218674,0.15662374627872114
+Missingness,MAR_Age_Older,0.0,MAR_Age_Older,0.2,None,Logistic Regression,43,Shifted Test,0.8550928483009295,0.7876200281471346,0.1509376756643192
+Missingness,MAR_Age_Older,0.0,MAR_Age_Older,0.2,None,LightGBM,43,In-domain Test,0.9046508991396017,0.8630743400826593,0.12282976861339501
+Missingness,MAR_Age_Older,0.0,MAR_Age_Older,0.2,None,LightGBM,43,Shifted Test,0.9107970431682499,0.8753160243794041,0.11940984486664627
+Feature Shift,Education,0.0,None,0.0,Education,Logistic Regression,43,In-domain Test,0.8362995716784858,0.7457730853735864,0.15973564797862294
+Feature Shift,Education,0.0,None,0.0,Education,Logistic Regression,43,Shifted Test,0.8463935925230384,0.7650024955056014,0.15504731556358722
+Feature Shift,Education,0.0,None,0.0,Education,LightGBM,43,In-domain Test,0.8978959221217087,0.8522607993667759,0.12703979742097743
+Feature Shift,Education,0.0,None,0.0,Education,LightGBM,43,Shifted Test,0.9055681009877882,0.8668249889205805,0.12281414571286281
+Feature Shift,Disability,0.0,None,0.0,Disability,Logistic Regression,43,In-domain Test,0.8319380830669683,0.7537727418443967,0.16599490339850528
+Feature Shift,Disability,0.0,None,0.0,Disability,Logistic Regression,43,Shifted Test,0.8434513769633627,0.7733802620596346,0.15969864921913587
+Feature Shift,Disability,0.0,None,0.0,Disability,LightGBM,43,In-domain Test,0.8942233424139172,0.8486034946704497,0.13118388372995654
+Feature Shift,Disability,0.0,None,0.0,Disability,LightGBM,43,Shifted Test,0.9003442002189903,0.8602376423611168,0.12747139343358457
+Feature Shift,Citizenship_Nativity_Ancestry,0.0,None,0.0,Citizenship_Nativity_Ancestry,Logistic Regression,43,In-domain Test,0.8436816584190356,0.767547345383132,0.15603063858878263
+Feature Shift,Citizenship_Nativity_Ancestry,0.0,None,0.0,Citizenship_Nativity_Ancestry,Logistic Regression,43,Shifted Test,0.8552884522933027,0.7872759492917588,0.15089809367618545
+Feature Shift,Citizenship_Nativity_Ancestry,0.0,None,0.0,Citizenship_Nativity_Ancestry,LightGBM,43,In-domain Test,0.9008019761306086,0.8569944178982054,0.12481811663084462
+Feature Shift,Citizenship_Nativity_Ancestry,0.0,None,0.0,Citizenship_Nativity_Ancestry,LightGBM,43,Shifted Test,0.9079920501330196,0.8707751343052141,0.1211366709053489
+Baseline,None,0.0,None,0.0,None,Logistic Regression,44,In-domain Test,0.8436018206660586,0.7675832795226996,0.15695904248168263
+Baseline,None,0.0,None,0.0,None,Logistic Regression,44,Shifted Test,0.8549536544530962,0.7855780955381721,0.15092459189473398
+Baseline,None,0.0,None,0.0,None,LightGBM,44,In-domain Test,0.9023195888129443,0.8608116925099372,0.1243191946069685
+Baseline,None,0.0,None,0.0,None,LightGBM,44,Shifted Test,0.9106387604217889,0.8748263203360389,0.11943500040452946
+Label Noise,0% Noise,0.0,None,0.0,None,Logistic Regression,44,In-domain Test,0.8436018206660586,0.7675832795226996,0.15695904248168263
+Label Noise,0% Noise,0.0,None,0.0,None,Logistic Regression,44,Shifted Test,0.8549536544530962,0.7855780955381721,0.15092459189473398
+Label Noise,0% Noise,0.0,None,0.0,None,LightGBM,44,In-domain Test,0.9023195888129443,0.8608116925099372,0.1243191946069685
+Label Noise,0% Noise,0.0,None,0.0,None,LightGBM,44,Shifted Test,0.9106387604217889,0.8748263203360389,0.11943500040452946
+Label Noise,5% Noise,0.05,None,0.0,None,Logistic Regression,44,In-domain Test,0.8409710318437661,0.7678065662438353,0.15954735970582234
+Label Noise,5% Noise,0.05,None,0.0,None,Logistic Regression,44,Shifted Test,0.8520372185305196,0.7845115496218209,0.15391263466217356
+Label Noise,5% Noise,0.05,None,0.0,None,LightGBM,44,In-domain Test,0.901676291940772,0.8592949157283701,0.12564884060638404
+Label Noise,5% Noise,0.05,None,0.0,None,LightGBM,44,Shifted Test,0.9103851317806531,0.8746204165651178,0.12085938605431702
+Label Noise,10% Noise,0.1,None,0.0,None,Logistic Regression,44,In-domain Test,0.8396628764567187,0.7670485018089261,0.16328855401286121
+Label Noise,10% Noise,0.1,None,0.0,None,Logistic Regression,44,Shifted Test,0.8505155286291103,0.7832212192526532,0.1580141896556638
+Label Noise,10% Noise,0.1,None,0.0,None,LightGBM,44,In-domain Test,0.9009510093909938,0.857129395740775,0.12983747716529953
+Label Noise,10% Noise,0.1,None,0.0,None,LightGBM,44,Shifted Test,0.9096511707361511,0.8731382035758469,0.12535634286516564
+Label Noise,20% Noise,0.2,None,0.0,None,Logistic Regression,44,In-domain Test,0.8382864169416211,0.7659115037022437,0.17567508077279118
+Label Noise,20% Noise,0.2,None,0.0,None,Logistic Regression,44,Shifted Test,0.8490780461973151,0.7819546108092448,0.1713276189533734
+Label Noise,20% Noise,0.2,None,0.0,None,LightGBM,44,In-domain Test,0.8996083105569679,0.8550764706957965,0.1456905541485046
+Label Noise,20% Noise,0.2,None,0.0,None,LightGBM,44,Shifted Test,0.9082247240870388,0.8714092209212783,0.1421700604971362
+Missingness,MCAR,0.0,MCAR,0.0,None,Logistic Regression,44,In-domain Test,0.8436018206660586,0.7675832795226996,0.15695904248168263
+Missingness,MCAR,0.0,MCAR,0.0,None,Logistic Regression,44,Shifted Test,0.8549536544530962,0.7855780955381721,0.15092459189473398
+Missingness,MCAR,0.0,MCAR,0.0,None,LightGBM,44,In-domain Test,0.9023195888129443,0.8608116925099372,0.1243191946069685
+Missingness,MCAR,0.0,MCAR,0.0,None,LightGBM,44,Shifted Test,0.9106387604217889,0.8748263203360389,0.11943500040452946
+Missingness,MCAR,0.0,MCAR,0.1,None,Logistic Regression,44,In-domain Test,0.8429837814150051,0.7642850636901808,0.15731590060238498
+Missingness,MCAR,0.0,MCAR,0.1,None,Logistic Regression,44,Shifted Test,0.8541704111663809,0.7827269673612308,0.1514663965917803
+Missingness,MCAR,0.0,MCAR,0.1,None,LightGBM,44,In-domain Test,0.9012619884281481,0.8588248443636889,0.12500559016530619
+Missingness,MCAR,0.0,MCAR,0.1,None,LightGBM,44,Shifted Test,0.90948990664284,0.8725342109315736,0.1201796253434284
+Missingness,MCAR,0.0,MCAR,0.2,None,Logistic Regression,44,In-domain Test,0.8421852590673007,0.7613058030063804,0.15785386898631987
+Missingness,MCAR,0.0,MCAR,0.2,None,Logistic Regression,44,Shifted Test,0.8533166446188218,0.7801973902195176,0.15215513490565072
+Missingness,MCAR,0.0,MCAR,0.2,None,LightGBM,44,In-domain Test,0.9006630844951726,0.8577350305240408,0.1254283798605044
+Missingness,MCAR,0.0,MCAR,0.2,None,LightGBM,44,Shifted Test,0.9090101954856237,0.8719101943263428,0.12054479691755145
+Missingness,MAR_Age_Older,0.0,MAR_Age_Older,0.0,None,Logistic Regression,44,In-domain Test,0.8436018206660586,0.7675832795226996,0.15695904248168263
+Missingness,MAR_Age_Older,0.0,MAR_Age_Older,0.0,None,Logistic Regression,44,Shifted Test,0.8549536544530962,0.7855780955381721,0.15092459189473398
+Missingness,MAR_Age_Older,0.0,MAR_Age_Older,0.0,None,LightGBM,44,In-domain Test,0.9023195888129443,0.8608116925099372,0.1243191946069685
+Missingness,MAR_Age_Older,0.0,MAR_Age_Older,0.0,None,LightGBM,44,Shifted Test,0.9106387604217889,0.8748263203360389,0.11943500040452946
+Missingness,MAR_Age_Older,0.0,MAR_Age_Older,0.1,None,Logistic Regression,44,In-domain Test,0.8435521218973506,0.7686859098261708,0.15707640536805761
+Missingness,MAR_Age_Older,0.0,MAR_Age_Older,0.1,None,Logistic Regression,44,Shifted Test,0.8549819119136989,0.7865504869515362,0.15094418916600977
+Missingness,MAR_Age_Older,0.0,MAR_Age_Older,0.1,None,LightGBM,44,In-domain Test,0.9023492658779382,0.8609121433686754,0.12431193756591155
+Missingness,MAR_Age_Older,0.0,MAR_Age_Older,0.1,None,LightGBM,44,Shifted Test,0.9106014077513019,0.874763149570798,0.11946528694757866
+Missingness,MAR_Age_Older,0.0,MAR_Age_Older,0.2,None,Logistic Regression,44,In-domain Test,0.8434093076933679,0.7696864861947876,0.15728666072870054
+Missingness,MAR_Age_Older,0.0,MAR_Age_Older,0.2,None,Logistic Regression,44,Shifted Test,0.854909176295397,0.7873292971575048,0.15104198912059727
+Missingness,MAR_Age_Older,0.0,MAR_Age_Older,0.2,None,LightGBM,44,In-domain Test,0.9022908973838091,0.8606956248431346,0.1243378986878616
+Missingness,MAR_Age_Older,0.0,MAR_Age_Older,0.2,None,LightGBM,44,Shifted Test,0.9105756474351208,0.874688443413324,0.11950118444895208
+Feature Shift,Education,0.0,None,0.0,Education,Logistic Regression,44,In-domain Test,0.8351146538571708,0.7452887307477829,0.16060839565730112
+Feature Shift,Education,0.0,None,0.0,Education,Logistic Regression,44,Shifted Test,0.8462598052185226,0.7644881335714458,0.1550872699524836
+Feature Shift,Education,0.0,None,0.0,Education,LightGBM,44,In-domain Test,0.8952267334507057,0.849436474270606,0.1282792300357459
+Feature Shift,Education,0.0,None,0.0,Education,LightGBM,44,Shifted Test,0.9052996109940944,0.8664599964047928,0.12278422621427615
+Feature Shift,Disability,0.0,None,0.0,Disability,Logistic Regression,44,In-domain Test,0.8325471286248928,0.755341459898842,0.16627572331327525
+Feature Shift,Disability,0.0,None,0.0,Disability,Logistic Regression,44,Shifted Test,0.8431322807671566,0.7729011697021176,0.1598597738602694
+Feature Shift,Disability,0.0,None,0.0,Disability,LightGBM,44,In-domain Test,0.8927853284101228,0.8477748963862141,0.1321616357728118
+Feature Shift,Disability,0.0,None,0.0,Disability,LightGBM,44,Shifted Test,0.9000228456377317,0.8596280985188478,0.12754251491713822
+Feature Shift,Citizenship_Nativity_Ancestry,0.0,None,0.0,Citizenship_Nativity_Ancestry,Logistic Regression,44,In-domain Test,0.8426164070280844,0.766508021988549,0.15691628805711805
+Feature Shift,Citizenship_Nativity_Ancestry,0.0,None,0.0,Citizenship_Nativity_Ancestry,Logistic Regression,44,Shifted Test,0.8550406164172684,0.7866615267797997,0.15104480304690698
+Feature Shift,Citizenship_Nativity_Ancestry,0.0,None,0.0,Citizenship_Nativity_Ancestry,LightGBM,44,In-domain Test,0.8990009828393745,0.8551606983330158,0.12618164765527265
+Feature Shift,Citizenship_Nativity_Ancestry,0.0,None,0.0,Citizenship_Nativity_Ancestry,LightGBM,44,Shifted Test,0.9081268634400708,0.8707501797883666,0.12102778610949641
+Baseline,None,0.0,None,0.0,None,LightGBM,42,Generalization Gap (Shifted - In-domain),0.006787341299048677,0.013284318341151735,-0.00410851379808011
+Baseline,None,0.0,None,0.0,None,LightGBM,43,Generalization Gap (Shifted - In-domain),0.0061505389871443494,0.012102154647084307,-0.0034180662493317887
+Baseline,None,0.0,None,0.0,None,LightGBM,44,Generalization Gap (Shifted - In-domain),0.008319171608844655,0.014014627826101744,-0.004884194202439032
+Baseline,None,0.0,None,0.0,None,Logistic Regression,42,Generalization Gap (Shifted - In-domain),0.010137511775442087,0.01772199639683869,-0.0054912180008913625
+Baseline,None,0.0,None,0.0,None,Logistic Regression,43,Generalization Gap (Shifted - In-domain),0.011004475683423776,0.019382024959920474,-0.005344111018948439
+Baseline,None,0.0,None,0.0,None,Logistic Regression,44,Generalization Gap (Shifted - In-domain),0.011351833787037635,0.017994816015472592,-0.006034450586948653
+Feature Shift,Citizenship_Nativity_Ancestry,0.0,None,0.0,Citizenship_Nativity_Ancestry,LightGBM,42,Generalization Gap (Shifted - In-domain),0.007149269062303509,0.013545682127995562,-0.004168670763939772
+Feature Shift,Citizenship_Nativity_Ancestry,0.0,None,0.0,Citizenship_Nativity_Ancestry,LightGBM,43,Generalization Gap (Shifted - In-domain),0.007190074002411007,0.01378071640700873,-0.0036814457254957245
+Feature Shift,Citizenship_Nativity_Ancestry,0.0,None,0.0,Citizenship_Nativity_Ancestry,LightGBM,44,Generalization Gap (Shifted - In-domain),0.009125880600696301,0.015589481455350773,-0.005153861545776239
+Feature Shift,Citizenship_Nativity_Ancestry,0.0,None,0.0,Citizenship_Nativity_Ancestry,Logistic Regression,42,Generalization Gap (Shifted - In-domain),0.010815091679915012,0.018769784826648372,-0.005172778749532675
+Feature Shift,Citizenship_Nativity_Ancestry,0.0,None,0.0,Citizenship_Nativity_Ancestry,Logistic Regression,43,Generalization Gap (Shifted - In-domain),0.011606793874267107,0.01972860390862685,-0.005132544912597181
+Feature Shift,Citizenship_Nativity_Ancestry,0.0,None,0.0,Citizenship_Nativity_Ancestry,Logistic Regression,44,Generalization Gap (Shifted - In-domain),0.012424209389183982,0.020153504791250776,-0.005871485010211064
+Feature Shift,Disability,0.0,None,0.0,Disability,LightGBM,42,Generalization Gap (Shifted - In-domain),0.005580689974135078,0.010629696435088598,-0.0036987750257652663
+Feature Shift,Disability,0.0,None,0.0,Disability,LightGBM,43,Generalization Gap (Shifted - In-domain),0.006120857805073099,0.011634147690667063,-0.0037124902963719675
+Feature Shift,Disability,0.0,None,0.0,Disability,LightGBM,44,Generalization Gap (Shifted - In-domain),0.007237517227608903,0.011853202132633744,-0.004619120855673564
+Feature Shift,Disability,0.0,None,0.0,Disability,Logistic Regression,42,Generalization Gap (Shifted - In-domain),0.0102551571303372,0.017663512365411527,-0.006018432322229927
+Feature Shift,Disability,0.0,None,0.0,Disability,Logistic Regression,43,Generalization Gap (Shifted - In-domain),0.011513293896394439,0.019607520215237928,-0.006296254179369409
+Feature Shift,Disability,0.0,None,0.0,Disability,Logistic Regression,44,Generalization Gap (Shifted - In-domain),0.010585152142263854,0.01755970980327559,-0.006415949453005859
+Feature Shift,Education,0.0,None,0.0,Education,LightGBM,42,Generalization Gap (Shifted - In-domain),0.008555594306909886,0.015289613424358972,-0.004834981316458181
+Feature Shift,Education,0.0,None,0.0,Education,LightGBM,43,Generalization Gap (Shifted - In-domain),0.007672178866079515,0.014564189553804563,-0.004225651708114619
+Feature Shift,Education,0.0,None,0.0,Education,LightGBM,44,Generalization Gap (Shifted - In-domain),0.010072877543388703,0.017023522134186786,-0.005495003821469752
+Feature Shift,Education,0.0,None,0.0,Education,Logistic Regression,42,Generalization Gap (Shifted - In-domain),0.009885451079487906,0.01875679856269885,-0.005103443107673494
+Feature Shift,Education,0.0,None,0.0,Education,Logistic Regression,43,Generalization Gap (Shifted - In-domain),0.010094020844552576,0.019229410132014957,-0.0046883324150357175
+Feature Shift,Education,0.0,None,0.0,Education,Logistic Regression,44,Generalization Gap (Shifted - In-domain),0.011145151361351857,0.019199402823662948,-0.0055211257048175255
+Label Noise,0% Noise,0.0,None,0.0,None,LightGBM,42,Generalization Gap (Shifted - In-domain),0.006787341299048677,0.013284318341151735,-0.00410851379808011
+Label Noise,0% Noise,0.0,None,0.0,None,LightGBM,43,Generalization Gap (Shifted - In-domain),0.0061505389871443494,0.012102154647084307,-0.0034180662493317887
+Label Noise,0% Noise,0.0,None,0.0,None,LightGBM,44,Generalization Gap (Shifted - In-domain),0.008319171608844655,0.014014627826101744,-0.004884194202439032
+Label Noise,0% Noise,0.0,None,0.0,None,Logistic Regression,42,Generalization Gap (Shifted - In-domain),0.010137511775442087,0.01772199639683869,-0.0054912180008913625
+Label Noise,0% Noise,0.0,None,0.0,None,Logistic Regression,43,Generalization Gap (Shifted - In-domain),0.011004475683423776,0.019382024959920474,-0.005344111018948439
+Label Noise,0% Noise,0.0,None,0.0,None,Logistic Regression,44,Generalization Gap (Shifted - In-domain),0.011351833787037635,0.017994816015472592,-0.006034450586948653
+Label Noise,10% Noise,0.1,None,0.0,None,LightGBM,42,Generalization Gap (Shifted - In-domain),0.0067270134101725665,0.013222594579180846,-0.0037420869066485674
+Label Noise,10% Noise,0.1,None,0.0,None,LightGBM,43,Generalization Gap (Shifted - In-domain),0.005895591997203797,0.012418071311959045,-0.003133939769708771
+Label Noise,10% Noise,0.1,None,0.0,None,LightGBM,44,Generalization Gap (Shifted - In-domain),0.008700161345157276,0.01600880783507197,-0.004481134300133888
+Label Noise,10% Noise,0.1,None,0.0,None,Logistic Regression,42,Generalization Gap (Shifted - In-domain),0.010672615748719028,0.016796979965430392,-0.005337007301452923
+Label Noise,10% Noise,0.1,None,0.0,None,Logistic Regression,43,Generalization Gap (Shifted - In-domain),0.011236854255359807,0.018381735297473,-0.004912091473126462
+Label Noise,10% Noise,0.1,None,0.0,None,Logistic Regression,44,Generalization Gap (Shifted - In-domain),0.01085265217239162,0.016172717443727058,-0.005274364357197414
+Label Noise,20% Noise,0.2,None,0.0,None,LightGBM,42,Generalization Gap (Shifted - In-domain),0.0065492852800550505,0.012511391209778067,-0.0030992451864288173
+Label Noise,20% Noise,0.2,None,0.0,None,LightGBM,43,Generalization Gap (Shifted - In-domain),0.006186705536952886,0.012362647642651603,-0.00276656921541249
+Label Noise,20% Noise,0.2,None,0.0,None,LightGBM,44,Generalization Gap (Shifted - In-domain),0.008616413530070921,0.01633275022548175,-0.0035204936513683893
+Label Noise,20% Noise,0.2,None,0.0,None,Logistic Regression,42,Generalization Gap (Shifted - In-domain),0.01057787931184273,0.016478226615292746,-0.004403171895490138
+Label Noise,20% Noise,0.2,None,0.0,None,Logistic Regression,43,Generalization Gap (Shifted - In-domain),0.011250607313722405,0.01819711359320475,-0.0040806362569653365
+Label Noise,20% Noise,0.2,None,0.0,None,Logistic Regression,44,Generalization Gap (Shifted - In-domain),0.01079162925569399,0.016043107107001076,-0.0043474618194177805
+Label Noise,5% Noise,0.05,None,0.0,None,LightGBM,42,Generalization Gap (Shifted - In-domain),0.006907893028408774,0.013362069603384596,-0.00412378586545685
+Label Noise,5% Noise,0.05,None,0.0,None,LightGBM,43,Generalization Gap (Shifted - In-domain),0.006155199104285525,0.01281718942759924,-0.0034459925899771593
+Label Noise,5% Noise,0.05,None,0.0,None,LightGBM,44,Generalization Gap (Shifted - In-domain),0.008708839839881022,0.015325500836747663,-0.004789454552067016
+Label Noise,5% Noise,0.05,None,0.0,None,Logistic Regression,42,Generalization Gap (Shifted - In-domain),0.010569865404707945,0.016970420314834866,-0.005587336181800906
+Label Noise,5% Noise,0.05,None,0.0,None,Logistic Regression,43,Generalization Gap (Shifted - In-domain),0.011367423028006973,0.018777202368005175,-0.005241386302682116
+Label Noise,5% Noise,0.05,None,0.0,None,Logistic Regression,44,Generalization Gap (Shifted - In-domain),0.01106618668675352,0.01670498337798565,-0.005634725043648786
+Missingness,MAR_Age_Older,0.0,MAR_Age_Older,0.0,None,LightGBM,42,Generalization Gap (Shifted - In-domain),0.006787341299048677,0.013284318341151735,-0.00410851379808011
+Missingness,MAR_Age_Older,0.0,MAR_Age_Older,0.0,None,LightGBM,43,Generalization Gap (Shifted - In-domain),0.0061505389871443494,0.012102154647084307,-0.0034180662493317887
+Missingness,MAR_Age_Older,0.0,MAR_Age_Older,0.0,None,LightGBM,44,Generalization Gap (Shifted - In-domain),0.008319171608844655,0.014014627826101744,-0.004884194202439032
+Missingness,MAR_Age_Older,0.0,MAR_Age_Older,0.0,None,Logistic Regression,42,Generalization Gap (Shifted - In-domain),0.010137511775442087,0.01772199639683869,-0.0054912180008913625
+Missingness,MAR_Age_Older,0.0,MAR_Age_Older,0.0,None,Logistic Regression,43,Generalization Gap (Shifted - In-domain),0.011004475683423776,0.019382024959920474,-0.005344111018948439
+Missingness,MAR_Age_Older,0.0,MAR_Age_Older,0.0,None,Logistic Regression,44,Generalization Gap (Shifted - In-domain),0.011351833787037635,0.017994816015472592,-0.006034450586948653
+Missingness,MAR_Age_Older,0.0,MAR_Age_Older,0.1,None,LightGBM,42,Generalization Gap (Shifted - In-domain),0.006681286967092137,0.013453316643342261,-0.004019118446812589
+Missingness,MAR_Age_Older,0.0,MAR_Age_Older,0.1,None,LightGBM,43,Generalization Gap (Shifted - In-domain),0.006192024154733078,0.012285759023982767,-0.0034038357300152228
+Missingness,MAR_Age_Older,0.0,MAR_Age_Older,0.1,None,LightGBM,44,Generalization Gap (Shifted - In-domain),0.00825214187336376,0.013851006202122651,-0.004846650618332893
+Missingness,MAR_Age_Older,0.0,MAR_Age_Older,0.1,None,Logistic Regression,42,Generalization Gap (Shifted - In-domain),0.010216723689311147,0.017560040307889935,-0.005564685590039531
+Missingness,MAR_Age_Older,0.0,MAR_Age_Older,0.1,None,Logistic Regression,43,Generalization Gap (Shifted - In-domain),0.01119617716621657,0.01936112912444443,-0.005506185657755458
+Missingness,MAR_Age_Older,0.0,MAR_Age_Older,0.1,None,Logistic Regression,44,Generalization Gap (Shifted - In-domain),0.011429790016348251,0.017864577125365377,-0.0061322162020478466
+Missingness,MAR_Age_Older,0.0,MAR_Age_Older,0.2,None,LightGBM,42,Generalization Gap (Shifted - In-domain),0.006452773511204768,0.013077670025820165,-0.0039340563576057835
+Missingness,MAR_Age_Older,0.0,MAR_Age_Older,0.2,None,LightGBM,43,Generalization Gap (Shifted - In-domain),0.006146144028648215,0.012241684296744881,-0.0034199237467487376
+Missingness,MAR_Age_Older,0.0,MAR_Age_Older,0.2,None,LightGBM,44,Generalization Gap (Shifted - In-domain),0.008284750051311685,0.013992818570189414,-0.004836714238909523
+Missingness,MAR_Age_Older,0.0,MAR_Age_Older,0.2,None,Logistic Regression,42,Generalization Gap (Shifted - In-domain),0.010361438568152748,0.017431880867619598,-0.005682939613592758
+Missingness,MAR_Age_Older,0.0,MAR_Age_Older,0.2,None,Logistic Regression,43,Generalization Gap (Shifted - In-domain),0.011395589494700653,0.019336019225267176,-0.0056860706144019335
+Missingness,MAR_Age_Older,0.0,MAR_Age_Older,0.2,None,Logistic Regression,44,Generalization Gap (Shifted - In-domain),0.011499868602029117,0.017642810962717137,-0.006244671608103269
+Missingness,MCAR,0.0,MCAR,0.0,None,LightGBM,42,Generalization Gap (Shifted - In-domain),0.006787341299048677,0.013284318341151735,-0.00410851379808011
+Missingness,MCAR,0.0,MCAR,0.0,None,LightGBM,43,Generalization Gap (Shifted - In-domain),0.0061505389871443494,0.012102154647084307,-0.0034180662493317887
+Missingness,MCAR,0.0,MCAR,0.0,None,LightGBM,44,Generalization Gap (Shifted - In-domain),0.008319171608844655,0.014014627826101744,-0.004884194202439032
+Missingness,MCAR,0.0,MCAR,0.0,None,Logistic Regression,42,Generalization Gap (Shifted - In-domain),0.010137511775442087,0.01772199639683869,-0.0054912180008913625
+Missingness,MCAR,0.0,MCAR,0.0,None,Logistic Regression,43,Generalization Gap (Shifted - In-domain),0.011004475683423776,0.019382024959920474,-0.005344111018948439
+Missingness,MCAR,0.0,MCAR,0.0,None,Logistic Regression,44,Generalization Gap (Shifted - In-domain),0.011351833787037635,0.017994816015472592,-0.006034450586948653
+Missingness,MCAR,0.0,MCAR,0.1,None,LightGBM,42,Generalization Gap (Shifted - In-domain),0.0062784044903473335,0.01303046689457954,-0.0037837067160808313
+Missingness,MCAR,0.0,MCAR,0.1,None,LightGBM,43,Generalization Gap (Shifted - In-domain),0.0057711643538082,0.01165935138124563,-0.00304455831413622
+Missingness,MCAR,0.0,MCAR,0.1,None,LightGBM,44,Generalization Gap (Shifted - In-domain),0.008227918214691932,0.013709366567884684,-0.00482596482187779
+Missingness,MCAR,0.0,MCAR,0.1,None,Logistic Regression,42,Generalization Gap (Shifted - In-domain),0.009718071756532054,0.017759928327766294,-0.005214425566961445
+Missingness,MCAR,0.0,MCAR,0.1,None,Logistic Regression,43,Generalization Gap (Shifted - In-domain),0.010639145646409998,0.019453247328641066,-0.00507073033029401
+Missingness,MCAR,0.0,MCAR,0.1,None,Logistic Regression,44,Generalization Gap (Shifted - In-domain),0.011186629751375854,0.01844190367105003,-0.005849504010604689
+Missingness,MCAR,0.0,MCAR,0.2,None,LightGBM,42,Generalization Gap (Shifted - In-domain),0.006152492218448824,0.012480081766339413,-0.0038082624861434516
+Missingness,MCAR,0.0,MCAR,0.2,None,LightGBM,43,Generalization Gap (Shifted - In-domain),0.005731254065360791,0.01199347273452378,-0.0030874557843935807
+Missingness,MCAR,0.0,MCAR,0.2,None,LightGBM,44,Generalization Gap (Shifted - In-domain),0.008347110990451045,0.014175163802301993,-0.004883582942952949
+Missingness,MCAR,0.0,MCAR,0.2,None,Logistic Regression,42,Generalization Gap (Shifted - In-domain),0.009314079217275784,0.017730098472552247,-0.004935530806690319
+Missingness,MCAR,0.0,MCAR,0.2,None,Logistic Regression,43,Generalization Gap (Shifted - In-domain),0.010301417517575406,0.019336332306480686,-0.004805754301694387
+Missingness,MCAR,0.0,MCAR,0.2,None,Logistic Regression,44,Generalization Gap (Shifted - In-domain),0.011131385551521156,0.018891587213137218,-0.005698734080669149

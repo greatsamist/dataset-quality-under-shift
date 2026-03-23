@@ -1,0 +1,14 @@
+# Exact versions used for the results reported in the thesis (macOS 26.6, Apple
+# silicon, Python 3.14.5). Every run also writes the versions it used to
+# <run directory>/run_meta.json.
+pandas==3.0.1
+numpy==2.4.3
+scikit-learn==1.8.0
+lightgbm==4.6.0
+scipy==1.17.1
+folktables==0.0.12
+matplotlib==3.10.8
+
+# Only needed to open or execute the two notebooks.
+jupyter==1.1.1
+nbformat==5.10.4

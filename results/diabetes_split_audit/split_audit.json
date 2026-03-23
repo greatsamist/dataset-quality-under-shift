@@ -1,0 +1,146 @@
+{
+  "42": {
+    "train": {
+      "encounters": 66489,
+      "patients": 50299,
+      "prevalence": 0.1121388500353442
+    },
+    "val": {
+      "encounters": 14248,
+      "patients": 13178,
+      "prevalence": 0.11215609208309939
+    },
+    "test": {
+      "encounters": 14248,
+      "patients": 13124,
+      "prevalence": 0.11208590679393599
+    },
+    "shifted": {
+      "encounters": 6781,
+      "patients": 4960,
+      "prevalence": 0.10411443739861377
+    },
+    "overlap": {
+      "train|val": {
+        "shared_patients": 4756,
+        "val_encounters_from_shared": 5560
+      },
+      "train|test": {
+        "shared_patients": 4715,
+        "test_encounters_from_shared": 5542
+      },
+      "train|shifted": {
+        "shared_patients": 48,
+        "shifted_encounters_from_shared": 53
+      },
+      "val|test": {
+        "shared_patients": 1617,
+        "test_encounters_from_shared": 2026
+      },
+      "val|shifted": {
+        "shared_patients": 22,
+        "shifted_encounters_from_shared": 23
+      },
+      "test|shifted": {
+        "shared_patients": 9,
+        "shifted_encounters_from_shared": 10
+      }
+    }
+  },
+  "43": {
+    "train": {
+      "encounters": 66489,
+      "patients": 50521,
+      "prevalence": 0.1121388500353442
+    },
+    "val": {
+      "encounters": 14248,
+      "patients": 13089,
+      "prevalence": 0.11215609208309939
+    },
+    "test": {
+      "encounters": 14248,
+      "patients": 13119,
+      "prevalence": 0.11208590679393599
+    },
+    "shifted": {
+      "encounters": 6781,
+      "patients": 4960,
+      "prevalence": 0.10411443739861377
+    },
+    "overlap": {
+      "train|val": {
+        "shared_patients": 4781,
+        "val_encounters_from_shared": 5658
+      },
+      "train|test": {
+        "shared_patients": 4802,
+        "test_encounters_from_shared": 5648
+      },
+      "train|shifted": {
+        "shared_patients": 55,
+        "shifted_encounters_from_shared": 59
+      },
+      "val|test": {
+        "shared_patients": 1703,
+        "test_encounters_from_shared": 2132
+      },
+      "val|shifted": {
+        "shared_patients": 15,
+        "shifted_encounters_from_shared": 17
+      },
+      "test|shifted": {
+        "shared_patients": 10,
+        "shifted_encounters_from_shared": 11
+      }
+    }
+  },
+  "44": {
+    "train": {
+      "encounters": 66489,
+      "patients": 50392,
+      "prevalence": 0.1121388500353442
+    },
+    "val": {
+      "encounters": 14248,
+      "patients": 13099,
+      "prevalence": 0.11215609208309939
+    },
+    "test": {
+      "encounters": 14248,
+      "patients": 13156,
+      "prevalence": 0.11208590679393599
+    },
+    "shifted": {
+      "encounters": 6781,
+      "patients": 4960,
+      "prevalence": 0.10411443739861377
+    },
+    "overlap": {
+      "train|val": {
+        "shared_patients": 4735,
+        "val_encounters_from_shared": 5606
+      },
+      "train|test": {
+        "shared_patients": 4763,
+        "test_encounters_from_shared": 5597
+      },
+      "train|shifted": {
+        "shared_patients": 53,
+        "shifted_encounters_from_shared": 57
+      },
+      "val|test": {
+        "shared_patients": 1676,
+        "test_encounters_from_shared": 2102
+      },
+      "val|shifted": {
+        "shared_patients": 11,
+        "shifted_encounters_from_shared": 12
+      },
+      "test|shifted": {
+        "shared_patients": 13,
+        "shifted_encounters_from_shared": 13
+      }
+    }
+  }
+}
